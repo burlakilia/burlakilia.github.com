@@ -1,0 +1,60 @@
+.dojogpCarousel {
+
+}
+
+
+.dojogpCarousel .header {
+    font-weight: bold;
+}
+
+/**
+* Настрока параметров отображения виджета 
+**/
+.dojogpCarousel .dojogpCarouselChildren {
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dojogpCarousel .arrow {
+    height: 25px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.dojogpCarousel .left {
+    background-image: url("./images/left-arrow.png");
+}
+
+.dojogpCarousel .right { 
+    background-image: url("./images/right-arrow.png");
+}
+
+.dojogpCarousel .deck{
+    background-color: red;
+    overflow: hidden;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius:6px; 
+    -webkit-border-radius:6px; 
+    -moz-border-radius:5px; 
+    -khtml-border-radius:10px;
+
+}
+
+.dojogpCarousel .deck .header {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.dojogpCarousel .deck .container {
+   
+}
+
+
+
+.dojogpCarousel .deck .container > .dojogpCarouselChildren {
+    float: left;
+}

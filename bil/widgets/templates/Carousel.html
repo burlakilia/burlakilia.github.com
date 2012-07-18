@@ -1,0 +1,19 @@
+<table class="dojogpCarousel">
+    <tr>
+        <td data-dojo-attach-point="leftArrowNode" >    
+            <div class="arrow left" data-dojo-attach-event="click: prev"></div> 
+        </td>
+        <td>
+            <div class="deck"  data-dojo-attach-point="deckNode" data-dojo-attach-event="mouseover: _onMouseOver, mouseout: _onMouseOut">           
+                <div class="header" data-dojo-attach-point="headerNode">${header}</div>
+                <div class="container" data-dojo-attach-point="containerNode"></div>
+                <div style="clear: both"></div>      
+            </div>
+        <td>
+        <td data-dojo-attach-point="rightArrowNode" >
+            <div class="arrow right"  data-dojo-attach-event="click: next"></div> 
+        </td>
+   
+    </tr>
+ 
+</table>
