@@ -9,7 +9,7 @@
                 
                 packages: [{
                     name: "bil",
-                    location: '/bil/'  // rewrite this path ([/your_sub_directory]/dojogp)
+                    location: '/personal_site/bil/'  // rewrite this path ([/your_sub_directory]/dojogp)
                 }],
             
                 parseOnLoad: true
@@ -18,9 +18,188 @@
         <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojo/dojo.js"></script>
         <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojo/resources/dojo.css"> 
         <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dijit/themes/tundra/tundra.css">
+    	<style type="text/css">
+    		@import "http://font.alpatriott.ru/font/import/ptsans.css";
+    		@import "http://font.alpatriott.ru/font/import/hattori.css";
+    		
+    		body { 	
+    			font-family: 'PTSansNarrowRegular';
+		    	font-size: 14px;
+				color: #333;
+				height: 100%;
+				background: #F3F3F3; 
+			}
+			
+			#wrap {
+				max-width: 1240px;
+				margin: 0 auto;
+			}
+			
+			#header {
+				height: 120px;
+			}
+			
+						
+			#header .h {
+				color: #666;
+				text-decoration: none;
+				font-size: 2em;
+				font-weight: bold;
+			}
+			
+			#header ul {
+				list-style: none;
+			}
+			
+			#header li {
+				float: left;
+				padding: 5px;
+			}
+			
+			#header li a {
+				text-decoration: none;
+				color: #666;
+				font-size: 1.6em;
+			}
+
+			
+			#main {
+				float: left;
+				width: 66%;
+				padding: 3%;
+				font-family: Helvetica;
+				font-size: 1.1em;
+				background: white;
+				border-radius: 10px;
+				border: 1px solid #E5E5E5;
+				box-shadow: inset 1px 1px 2px -0.1em rgba(0, 0, 0, 0.6);
+			}
+			
+			#rightMenu {
+				float: left;
+				font-size: 1.5em;
+			}
+			
+			#rightMenu ul {
+				list-style: none;
+			}
+			
+			#rightMenu li a {
+				display: inline-block;
+				margin-right: 0px;
+				margin-top: 15px;
+				color: #333;
+				font-family: HattoriHanzoLight;
+				font-size: 22px;
+				text-decoration: none;
+				border-bottom: 1px solid #CCC;
+			}
+			
+			/** page animations **/
+			#header ul li {
+				background-color: none;
+				border-radius: 10px;
+				transition: background-color .25s ease-in-out;
+				-moz-transition: background-color .25s ease-in-out;
+				-webkit-transition: background-color .25s ease-in-out;
+			}
+
+			#header ul li:hover {
+				background-color: #9DBAFC;
+			}
+			
+			
+			#rightMenu ul li a{
+				transition: color .25s ease-in-out;
+				-moz-transition: color .25s ease-in-out;
+				-webkit-transition: color .25s ease-in-out;
+			}
+
+			#rightMenu ul li a:hover {
+				color: #9DBAFC;
+				border: none;
+			}
+    	</style>
     </head>
 	<body>
-		<h1>Start page! Comming soon</h1>
-		<a href="https://github.com/burlakilia/">My repositry</a>
+		<div id="wrap">
+			<div id="header">
+				<div class="h">@Projects {</div>
+				<ul>
+					<li><a href="http://bw.skrt.biz">BoatWatch</a>;</li>
+					<li><a href="https://github.com/burlakilia/">ImageMap</a>;</li>
+					<li><a href="https://github.com/burlakilia/">DojoWidgets</a>;</li>
+					<li><a href="https://github.com/burlakilia/">Pda Erostov</a>;</li>
+
+				</ul>
+				<div style="clear: both;"></div>
+				<div class="h">} </div>
+			</div>
+			<div id="main">
+				<h1>Портфолио</h1>
+				<p>
+					Сентябрь 2011 – по настоящее время 
+ТД «Технодар» – — Информационные технологии 
+Программист 
+Разработка программного комплекса мониторинга за ТС 
+- разработка web интерфейса 
+- проектирование бд 
+
+Май 2011 — сентябрь 2011 
+Mediaweb — Информационные технологии/системная интеграция 
+Технический менеджер 
+- Написание и согласования ТЗ на разработку веб-сайтов 
+- Продумывание архитектуры нового сайта 
+- Прием макетов дизайна 
+- Тестирование кода 
+- Взаимодействие с заказчиком, для решения сложных технических задач, 
+которые могут появится при разработке сайта 
+- Разработка дополнительных модулей 
+Причина ухода – нашел более интересный и сложный проект, надоело писать типовые работы 
+
+Январь 2009 — октябрь 2010 
+ИТ-паркт ПетрГу — Информационные технологии/системная интеграция 
+программист 
+Разработка мобильных приложений для платформы Maemo. Итогом работы стал первый портотип приложения Mysocials 
+Статья – maemos.ru/2010/01/18/myso... 
+Репозиторий – gitorious.org/mysocials/s... 
+Причина ухода – завершение первого этапа проекта 
+
+Сентябрь 2008 — май 2011 
+ПетрГу РЦнит — Информационные технологии/системная интеграция 
+программист 
+Разработка информационных подсистем вуза, на платформах Oracle. Разработка портального интеграционного решения, которое организовывает взаимодействия между программными подсистемами, разработанные на следующих платформах: 
+- Oracle Forms 10g 
+- Oracle JSP 
+- Orace Apex 
+Статья об одном из разрабатываемых приложений (it2010.petrsu.ru/thesis/t... 
+Причина ухода – завершение проекта, отсутствие дальнейшего финансирования 
+Ключевые навыки 
+
+Профессиональные навыки 
+- C (GTK) 
+- Java (Jsp, Play) 
+- Oracle (Sql, Plsql) 
+- Oracle Apex 
+- Html (верстка табличная и блочная) 
+- Javascript 
+- jquery – начальные знания 
+- dojo toolkit – глубокие знания (опыт более 1-го года) 
+- VBA 
+- Php (saphire) 
+- Python (django) 
+
+Дополнительные навыки 
+Быстрая обучаемость, коммуникабельность, стрессоустойчивость.
+				</p>
+			</div>
+			<div id="rightMenu">
+				<ul>
+					<li><a href="https://github.com/burlakilia/">Портфолио</a></li>
+					<li><a href="https://github.com/burlakilia/">Репозиторий</a></li>
+				</ul>
+			</div>
+		</div>
+		
 	</body>
 </html>
