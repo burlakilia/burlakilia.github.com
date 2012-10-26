@@ -29,11 +29,41 @@
 		
 		</script>
         <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojo/dojo.js"></script>
+	<script type="text/javascript">
+	    require(["dojo/ready",
+	                     'dojo/parser',
+	                     "bil/widgets/Carousel",
+	                     "dijit/form/Button",
+	                     "dijit/layout/ContentPane"], function(ready, parser, ShortVacancySummary, Carousel, Button, ContentPane) {
+	
+	
+	
+	                     ready(function() {
+	                        carousel = new Carousel({
+	                            header: "Carousel",     // header 
+	                            showArrows: true,       // show arrow
+	                            pageSize: 5,            // the number of displayed widgets
+	                            scrollStep: 20,         // mousewheel scrolling speed
+	                            animationSpeed: 1000,   // animation speed
+	                            children: [
+	                                new ContentPane({style:"background-color:white", content:'<h5>Hello world1</h5>'}),
+	                                new ContentPane({style:"background-color:white", content:'<h5>Hello world2</h5>'})
+	                            ]
+	                        }, "carousel");
+	
+	                        carousel.startup();
+	
+	                        carousel.addChild(new ContentPane({style:"background-color:white", content:'<h5>Hello world</h5>'}));
+	        });
+	    });
+	</script>
+
         <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dojo/resources/dojo.css"> 
         <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.7.2/dijit/themes/tundra/tundra.css">
     	<style type="text/css">
     		@import "http://font.alpatriott.ru/font/import/ptsans.css";
-    		@import "http://font.alpatriott.ru/font/import/hattori.css";
+    		@import url('./dojogp/widgets/resources/Carousel.css');
+		@import "http://font.alpatriott.ru/font/import/hattori.css";
     		
     		body { 	
     			font-family: 'PTSansNarrowRegular';
@@ -149,6 +179,7 @@
 				<div class="h">} </div>
 			</div>
 			<div id="main">
+			<div id="carousel"></div>
 				<h1>Портфолио</h1>
 				<p>
 <h2>Профессиональные навыки</h2>
