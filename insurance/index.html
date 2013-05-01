@@ -1,18 +1,18 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <!--[if lte IE 9]>
-    <script src='/app/libs/base64.js'></script>
+    <script src='./app/libs/base64.js'></script>
     <![endif]-->
     <!--[if lt IE 9]>
-    <script src='/app/libs/es5-shim.js'></script>
-    <script src='/app/libs/iso8601.js'></script>
+    <script src='./app/libs/es5-shim.js'></script>
+    <script src='./app/libs/iso8601.js'></script>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script src="/app/packages/require.config.js?@revision"></script>
+    <script src="./app/packages/require.config.js?@revision"></script>
     <script type="text/javascript">
         var require = {
-            baseUrl: '/app',
+            baseUrl: './app',
             packages: jam.packages,
             paths: {
                 ui: 'libs/ui/js/jquery-ui-1.10.2.custom.min',
@@ -23,7 +23,7 @@
             urlArgs : 1
         };
     </script>
-    <script src="/app/libs/require.js?1"></script>
+    <script src="./app/libs/require.js?1"></script>
     <script>
         require(['app'], function (app) {
             app.init();
