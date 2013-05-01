@@ -3,7 +3,7 @@ define(function (require, exports) {
 
     require('mustache');
 
-    var template = require('text!/app/templates/select.html');
+    var template = require('text!../../templates/select.html');
 
     exports.clear = function(container) {
         container.empty();
