@@ -1,0 +1,33 @@
+@import url('/app/libs/ui/css/ui-lightness/jquery-ui-1.10.2.custom.min.css');
+
+.list .scroll {
+    width: 600px;
+}
+
+
+.list .type {
+    width: 200px;
+}
+
+.region:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.region.active {
+    color: red;
+}
+
+.form .label {
+    width: 250px;
+    display: inline-block;
+}
+
+.form .slider {
+    width: 350px;
+    display: inline-block;
+}
+
+select.hidden {
+    display: none;
+}

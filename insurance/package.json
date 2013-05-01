@@ -1,0 +1,16 @@
+{
+    "name": "AST Site",
+    "version": "0.0.1",
+	"jam": {
+		"baseUrl": "./app/",
+		"packageDir": "./app/packages/",
+		"dependencies": {
+            "jquery": "1.8.3",
+            "events": "0.0.2",
+            "async": ">0.1.22",
+            "text": "*",
+            "json": "*"
+
+        }
+	}
+}
