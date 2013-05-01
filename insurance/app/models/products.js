@@ -1,4 +1,4 @@
-define(['json!/data.json', 'libs/query', 'exports'], function (data, query, exports) {
+define(['json!data.json', 'libs/query', 'exports'], function (data, query, exports) {
     "use strict";
 
     exports.select = function(id, region) {

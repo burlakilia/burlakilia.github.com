@@ -1,7 +1,7 @@
 define(function (require, exports) {
     "use strict";
 
-    var data = require('json!/data.json'),
+    var data = require('json!data.json'),
         query = require('libs/query');
 
     var region;
