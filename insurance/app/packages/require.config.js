@@ -16,6 +16,11 @@ var jam = {
             "main": "jquery.js"
         },
         {
+            "name": "jquery-ui",
+            "location": "packages/jquery-ui",
+            "main": "dist/jquery-ui.min.js"
+        },
+        {
             "name": "json",
             "location": "packages/json",
             "main": "json.js"
@@ -49,6 +54,11 @@ if (typeof require !== "undefined" && require.config) {
             "main": "jquery.js"
         },
         {
+            "name": "jquery-ui",
+            "location": "packages/jquery-ui",
+            "main": "dist/jquery-ui.min.js"
+        },
+        {
             "name": "json",
             "location": "packages/json",
             "main": "json.js"
@@ -79,6 +89,11 @@ else {
             "name": "jquery",
             "location": "packages/jquery",
             "main": "jquery.js"
+        },
+        {
+            "name": "jquery-ui",
+            "location": "packages/jquery-ui",
+            "main": "dist/jquery-ui.min.js"
         },
         {
             "name": "json",

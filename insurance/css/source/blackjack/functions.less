@@ -1,0 +1,42 @@
+.text-overflow() {
+	word-wrap: break-word;      /* for IE, Firefox since 3.5 and Opera since 10.5 */
+	overflow: hidden;           /* required for text-overflow */
+    -o-text-overflow: ellipsis; /* for Opera since 9.0 */
+	text-overflow: ellipsis;    /* for IE and WebKit (Safari, Chrome) */
+}
+
+.box-sizing(@value) {
+	-ms-box-sizing: @value;
+	-moz-box-sizing: @value;
+	-webkit-box-sizing: @value;
+	box-sizing: @value;
+}
+
+.background-size(@value) {
+	-moz-background-size: @value;
+	-o-background-size: @value;
+	-webkit-background-size: @value;
+	background-size: @value;
+}
+
+.user-select(@value) {
+	-webkit-user-select: @value;
+	-khtml-user-select: @value;
+	-moz-user-select: @value;
+	-o-user-select: @value;
+	user-select: @value;
+}
+
+.inline-block() {
+	display: inline-block; 
+	*display: inline;
+	*zoom: 1;
+}
+
+.text-hide() {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+

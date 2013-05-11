@@ -1,0 +1,58 @@
+.button {
+    .color(@color){
+        color: @color !important;
+    }
+
+    .transition(@duration) {
+        -webkit-transition: color @duration, border @duration, -webkit-box-shadow @duration;
+        -moz-transition: color @duration, border @duration, -moz-box-shadow @duration;
+        -o-transition: color @duration, border @duration, -o-box-shadow @duration;
+        -ms-transition: color @duration, border @duration, -ms-box-shadow @duration;
+        transition: color @duration, border @duration, box-shadow @duration;
+    }
+
+    .styles() {
+        .normal() {
+            .button > .color(@color);
+
+            .gradient > .2(@gradient-start-color, @gradient-end-color, ~'@{ie8-bg-color} @{ie9-bg}');
+            text-shadow: @text-shadow;
+
+            border-color: ~'@{ie8-inside-border-top-color} transparent @{ie8-inside-border-bottom-color}';
+            :root & {
+                border-color: @border-top-color @border-left-right-color @border-bottom-color;
+            }
+
+            &:before {
+                border-color: @ie8-border-color;
+            }
+        }
+
+        .hover-and-focus() {
+            &:hover,
+            &.hover,
+            &:focus {
+                .box-shadow(@hover-box-shadow);
+                .button > .color(@hover-color);
+                
+                border-color: ~'@{ie8-inside-border-top-hover-color} transparent @{ie8-inside-border-bottom-hover-color}';
+                :root & {
+                    border-color: @border-top-hover-color @border-left-right-hover-color @border-bottom-hover-color;
+                }
+
+                background-color: @ie8-hover-bg;
+            }
+        }
+
+        .active() {
+            .button > .color(@active-color);
+
+            border-color: ~'@{ie8-inside-border-top-active-color} transparent @{ie8-inside-border-bottom-active-color}';
+            :root & {
+                border-color: @border-top-active-color @border-left-right-active-color @border-bottom-active-color;
+            }
+            
+            background-color: @ie8-active-bg;
+        }
+    }
+}

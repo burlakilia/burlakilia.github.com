@@ -1,0 +1,11 @@
+.gradient() {
+    .2(@start, @end, @old-browser-bg: none, @orientation: top, @start-position: ~"0%", @end-position: ~"100%") {
+        background: @old-browser-bg;
+        background: ~"-moz-linear-gradient(@{orientation}, @{start} @{start-position}, @{end} @{end-position})";
+        background: ~"-webkit-linear-gradient(@{orientation}, @{start} @{start-position},@{end} @{end-position})";
+        background: ~"-o-linear-gradient(@{orientation}, @{start} @{start-position},@{end} @{end-position})";
+        background: ~"-ms-linear-gradient(@{orientation}, @{start} @{start-position},@{end} @{end-position})";
+
+        background: ~"linear-gradient(@{orientation}, @{start} @{start-position},@{end} @{end-position})";
+    }
+}

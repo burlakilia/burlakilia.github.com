@@ -1,0 +1,5 @@
+NameError: .transition is undefined in C:\Users\a.kudriavtsev\!MY data\Dropbox\Storm foolder\AST\css\source\modules\estate.less:17:3
+16 			font-size: 13px;
+17 			.transition(all 0.25s linear);
+18 			&.active{
+

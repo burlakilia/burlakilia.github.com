@@ -1,0 +1,14 @@
+.box-shadow(@shadow) {
+	-webkit-box-shadow: @shadow;
+	box-shadow: @shadow;
+
+    .transition(@transition-path) {
+        -webkit-transition:-webkit-box-shadow @transition-path;
+        transition: box-shadow @transition-path;
+    }
+}
+
+.box-shadow(@shadow, @shadow1) {
+	-webkit-box-shadow: @shadow, @shadow1;
+	box-shadow: @shadow, @shadow1;
+}
