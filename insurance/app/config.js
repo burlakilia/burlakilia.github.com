@@ -10,7 +10,9 @@ define(function () {
 
         "locations": {
             "url": "/insurance/locations.json"
-        }
+        },
+
+	"debug": false
 
     }
 
