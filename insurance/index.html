@@ -1,8 +1,7 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="css/main.css" rel="stylesheet" media="screen">
     <!--[if IE ]>
     <link href="css/ie.css" rel="stylesheet" media="screen">
@@ -40,7 +39,7 @@
         };
     </script>
     <script src="./app/libs/require.js?1"></script>
-    <script src="./app/app-built.js?0.0.3"></script>
+    <script src="./app/app-built.js?@revision"></script>
 
     <script>
         require(['app'], function (app) {
@@ -48,7 +47,8 @@
         });
     </script>
 </head>
-<body class="container step-2">
+<body class="step-2" data-link="widgets/compare/popup">
+<div class="body-wrap container">
 <header>
     <div class="row">
         <hgroup class="span2" >
@@ -168,11 +168,7 @@
                     </form>
 					<div class="product-current" data-link="widgets/products">
 					</div>
-                    <div class="product-compare">
-                        <ul >
-							<li>compare</li>
-							<li>compare</li>
-                        </ul>
+                    <div class="product-compare" data-link="widgets/compare/list">
                     </div>
                 </div>
             </section>
@@ -238,5 +234,14 @@
         </div>
     </div>
 </footer>
+</div>
+<div class="compare-overlay">
+	<div class="overlay"> </div>
+	<div class="compare-block">
+		<table data-link="widgets/compare/table">
+		</table>
+		<a class="close-overlay" href="#" title="close">X</a>
+	</div>
+</div>
 </body>
 </html>
