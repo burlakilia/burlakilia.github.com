@@ -1781,6 +1781,55 @@ article {
 .estate .main-content .product-current .product-wrap .product-current-nav a.credit:before {
   background-position: -101px -25px;
 }
+.estate .main-content .product-compare {
+  margin: 60px 0 0 0;
+}
+.estate .main-content .product-compare .product-compare-list {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.estate .main-content .product-compare .product-compare-list li {
+  margin: 0 1px 0 0;
+  padding: 8px 10px 10px 26px;
+  background: #f2f2f4;
+  float: left;
+}
+.estate .main-content .product-compare .product-compare-list li .close-icon {
+  display: block;
+  background: transparent url("/img/sprite.png") -62px -111px no-repeat;
+  width: 7px;
+  height: 7px;
+  margin: 7px 0 0 -16px;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  float: left;
+}
+.estate .main-content .product-compare .product-compare-list li.compare-link {
+  padding: 0;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+.estate .main-content .product-compare .product-compare-list li.compare-link a {
+  padding: 8px 18px 10px 18px;
+  display: block;
+  background: #00b6fd;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.estate .main-content .product-compare .product-compare-list li.compare-link:hover {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(5, 150, 253, 0.6);
+  box-shadow: 0px 0px 2px 0px rgba(5, 150, 253, 0.6);
+  background: #63d3ff;
+}
 .main-right {
   padding-bottom: 40px;
 }
@@ -1983,4 +2032,193 @@ a .popover {
   border-right-width: 0;
   border-left-color: #ffffff;
   bottom: -10px;
+}
+.compare-overlay {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 10000;
+  left: -200%;
+  -moz-opacity: 0;
+  /* Mozilla 1.6 и ниже */
+
+  -khtml-opacity: 0;
+  /* Konqueror 3.1, Safari 1.1 */
+
+  opacity: 0;
+  text-align: center;
+  -webkit-transition: opacity 0.25s linear 0.1s;
+  -moz-transition: opacity 0.25s linear 0.1s;
+  -o-transition: opacity 0.25s linear 0.1s;
+  -ms-transition: opacity 0.25s linear 0.1s;
+  transition: opacity 0.25s linear 0.1s;
+}
+.compare-overlay .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  width: 0;
+  height: 100%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  /* Mozilla 1.6 и ниже */
+
+  -khtml-opacity: 0.5;
+  /* Konqueror 3.1, Safari 1.1 */
+
+  opacity: 0.5;
+}
+.compare-overlay .compare-block {
+  position: relative;
+  margin: 570px auto 10px;
+  border: 4px solid #1AB9F8;
+  background: #fff;
+  color: #333;
+  display: inline-block;
+  z-index: 10000;
+  overflow: auto;
+}
+.compare-overlay .compare-block .close-overlay {
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 17px;
+  height: 17px;
+  background: transparent url("/img/sprite.png") -78px -65px no-repeat;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+.compare-overlay .compare-block h1 {
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 50px;
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding: 18px 10px 50px 0;
+}
+.compare-overlay .compare-block table {
+  min-width: 600px;
+  max-width: 908px;
+  margin: 0 36px 15px;
+  border: none;
+  padding: 0;
+  border-collapse: collapse;
+}
+.compare-overlay .compare-block table thead th {
+  background: #cbf1ff;
+  font-weight: normal;
+  color: #1f1f1f;
+  font-size: 16px;
+  padding: 13px;
+  height: 74px;
+  vertical-align: top;
+}
+.compare-overlay .compare-block table thead th.first-th {
+  background: #f7f7f7;
+  border-right: 1px solid #fff;
+  text-align: left;
+  color: #525252;
+}
+.compare-overlay .compare-block table thead th strong {
+  display: block;
+}
+.compare-overlay .compare-block table tfoot th,
+.compare-overlay .compare-block table tbody th {
+  text-align: left;
+  font-weight: normal;
+}
+.compare-overlay .compare-block table tfoot td,
+.compare-overlay .compare-block table tbody td,
+.compare-overlay .compare-block table tfoot th,
+.compare-overlay .compare-block table tbody th {
+  padding: 48px 8px 10px;
+}
+.compare-overlay .compare-block table tbody tr td,
+.compare-overlay .compare-block table tbody tr th {
+  border-bottom: 1px solid #caf1ff;
+}
+.compare-overlay .compare-block table tbody tr td {
+  font-size: 21px;
+}
+.compare-overlay .compare-block table tbody tr.last-tr th,
+.compare-overlay .compare-block table tbody tr.last-tr td {
+  padding-bottom: 20px;
+  border-bottom: 3px solid #ccc;
+}
+.compare-overlay .compare-block table tfoot .first-tf th,
+.compare-overlay .compare-block table tfoot .first-tf td {
+  line-height: 43px;
+}
+.compare-overlay .compare-block table tfoot .first-tf th:before,
+.compare-overlay .compare-block table tfoot .first-tf td:before {
+  content: ' ';
+  display: block;
+  height: 1px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  top: -48px;
+  left: -8px;
+  width: 100%;
+  padding: 0 8px;
+}
+.compare-overlay .compare-block table tfoot .first-tf td {
+  font-size: 40px;
+}
+.compare-overlay .compare-block table tfoot .buy-link {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  text-transform: uppercase;
+  color: #fff;
+  background: #7bd9ff;
+  margin: 0;
+  padding: 10px 30px 14px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+}
+.compare-overlay .compare-block table tfoot .buy-link:hover {
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(5, 150, 253, 0.6);
+  box-shadow: 0px 0px 2px 0px rgba(5, 150, 253, 0.6);
+  background: #63d3ff;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+.compare-active .body-wrap {
+  overflow: hidden;
+  z-index: 1;
+}
+body.compare-active {
+  height: 100%;
+  width: 100%;
+}
+.compare-active .compare-overlay {
+  -moz-opacity: 1;
+  /* Mozilla 1.6 и ниже */
+
+  -khtml-opacity: 1;
+  /* Konqueror 3.1, Safari 1.1 */
+
+  opacity: 1;
+  left: 0;
+  width: 100%;
+  min-width: 1000px;
+}
+.compare-active .overlay {
+  width: 100%;
 }

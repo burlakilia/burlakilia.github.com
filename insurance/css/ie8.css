@@ -146,3 +146,22 @@
 .estate .main-content .product-current .product-current-nav a.credit .before {
   background-position: -101px -25px;
 }
+.compare-active .compare-overlay {
+  *zoom: 1;
+}
+.compare-active .compare-overlay .compare-block {
+  z-index: 100;
+  max-width: 980px;
+  *width: 980px;
+  *top: 574px;
+}
+.compare-active .compare-overlay .compare-block h1 {
+  *display: block;
+}
+.compare-active .compare-overlay .compare-block table {
+  *width: 908px;
+}
+.compare-active .compare-overlay .compare-block table tfoot .first-tf th,
+.compare-active .compare-overlay .compare-block table tfoot .first-tf td {
+  *background: transparent url("/img/ie7.png") top left repeat-x;
+}

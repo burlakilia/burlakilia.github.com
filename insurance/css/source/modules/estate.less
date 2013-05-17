@@ -244,5 +244,49 @@
 				}
 			}
 		}
+		.product-compare{
+			margin: 60px 0 0 0;
+			.product-compare-list{
+				display: block;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				li{
+					margin: 0 1px 0 0;
+					padding: 8px 10px 10px 26px;
+					background: #f2f2f4;
+					float: left;
+					.close-icon{
+						display: block;
+						background: transparent url("/img/sprite.png")  -62px -111px no-repeat;
+						width: 7px;
+						height: 7px;
+						margin: 7px 0 0 -16px;
+						overflow: hidden;
+						text-indent: 100%;
+						white-space: nowrap;
+						float: left;
+					}
+					&.compare-link{
+						padding: 0;
+						.transition(all 0.25s linear);
+						a{
+							padding: 8px 18px 10px 18px;
+							display: block;
+							background: #00b6fd;
+							color: #fff;
+							text-decoration: none;
+							font-weight: bold;
+							text-transform: uppercase;
+							font-size: 13px;
+						}
+						&:hover{
+							.box-shadow(0px 0px 2px 0px rgba(5,150,253,0.60));
+							background: #63d3ff;
+						}
+					}
+				}
+			}
+		}
 	}
 }
