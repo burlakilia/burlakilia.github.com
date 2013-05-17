@@ -1,0 +1,53 @@
+<caption><h1>Сравнение программ страхования кварир в Москве и области</h1></caption>
+<thead>
+<tr>
+    <th class="first-th">
+        Сумма ущерба, <br/>руб.
+    </th>
+    {{#products}}
+    <th>
+        <strong>{{product.company.name}} </strong> {{name}}
+    </th>
+    {{/products}}
+</tr>
+</thead>
+<tbody>
+<tr>
+    <th>внутренняя отделка <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> и инженерное оборудование</th>
+    {{#products}}
+    <td>{{options.interior}}</td>
+    {{/products}}
+</tr>
+<tr>
+    <th>движимое домашнее <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> имущество</th>
+    {{#products}}
+    <td>{{options.movables}}</td>
+    {{/products}}
+</tr>
+<tr>
+    <th>гражданская <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> ответственность</th>
+    {{#products}}
+    <td>{{options.liability}}</td>
+    {{/products}}
+</tr>
+<tr class="last-tr">
+    <th>общая сумма <a href="#" class="popover-icon" data-toggle="popover" data-link="widgets/popup"  data-placement="right" data-content="Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто. Внутренняя отделка и инженерное оборудование это круто. очень круто." title="Внутренняя отделка и инженерное оборудование">?</a><br/> ответсвенности страховой компании</th>
+    {{#products}}
+    <td>{{totalcost}}</td>
+    {{/products}}
+</tr>
+</tbody>
+<tfoot>
+<tr class="first-tf">
+    <th>стоимость электронного полиса</th>
+    {{#products}}
+    <td>{{price}}</td>
+    {{/products}}
+</tr>
+<tr>
+    <th> </th>
+    {{#products}}
+    <td><a class="buy-link" href="#" title="купить" data-args="{{id}}">купить</a></td>
+    {{/products}}
+</tr>
+</tfoot>

@@ -1,0 +1,180 @@
+.compare-overlay{
+	width: 0;
+	height: 100%;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	z-index: 10000;
+	left: -200%;
+	-moz-opacity: 0; /* Mozilla 1.6 и ниже */
+	-khtml-opacity: 0; /* Konqueror 3.1, Safari 1.1 */
+	opacity: 0;
+	text-align: center;
+
+	.transition(opacity 0.25s linear 0.1s);
+
+	.overlay{
+		position: fixed;
+		top:0;
+		left:0;
+		background: #000;
+		width: 0;
+		height: 100%;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: ~"alpha(opacity=50)";
+		-moz-opacity: 0.5; /* Mozilla 1.6 и ниже */
+		-khtml-opacity: 0.5; /* Konqueror 3.1, Safari 1.1 */
+		opacity: 0.5;
+	}
+	.compare-block{
+		position: relative;
+		margin: 570px auto 10px;
+		border: 4px solid #1AB9F8;
+		background: #fff;
+		color: #333;
+		display: inline-block;
+		z-index: 10000;
+		overflow: auto;
+
+		.close-overlay{
+			display: block;
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			width: 17px;
+			height: 17px;
+			background: transparent url("/img/sprite.png")  -78px -65px no-repeat;
+			overflow: hidden;
+			text-indent: 100%;
+			white-space: nowrap;
+		}
+		h1{
+			font-size: 48px;
+			font-weight: normal;
+			line-height: 50px;
+			display: inline-block;
+			text-align: left;
+			margin: 0;
+			padding: 18px 10px 50px 0;
+		}
+		table{
+			min-width: 600px;
+			max-width: 908px;
+			margin: 0 36px 15px;
+			border: none;
+			padding: 0;
+			border-collapse: collapse;
+			thead{
+				th{
+					background: #cbf1ff;
+					font-weight: normal;
+					color:#1f1f1f;
+					font-size: 16px;
+					padding: 13px;
+					height: 74px;
+					vertical-align: top;
+					&.first-th{
+						background: #f7f7f7;
+						border-right: 1px solid #fff;
+						text-align: left;
+						color: #525252;
+					}
+					strong{
+						display: block;
+					}
+				}
+			}
+			tfoot,
+			tbody{
+				th{
+					text-align: left;
+					font-weight: normal;
+				}
+				td,th{
+					padding: 48px 8px 10px;
+				}
+			}
+			tbody{
+				tr{
+					td,th{
+						border-bottom: 1px solid #caf1ff;
+					}
+					td{
+						font-size: 21px;
+					}
+					&.last-tr{
+						th,td{
+							padding-bottom: 20px;
+							border-bottom: 3px solid #ccc;
+						}
+					}
+				}
+			}
+			tfoot{
+				.first-tf{
+					th,td{
+						line-height: 43px;
+						&:before{
+							content: ' ';
+							display: block;
+							height: 1px;
+							background: #fff;
+							border-bottom: 1px solid #ccc;
+							position: relative;
+							top:-48px;
+							left:-8px;
+							width: 100%;
+							padding: 0 8px;
+						}
+					}
+					td{
+						font-size: 40px;
+					}
+				}
+				.buy-link{
+					display: inline-block;
+					*display: inline;
+					*zoom: 1;
+					text-transform: uppercase;
+					color: #fff;
+					background: #7bd9ff;
+					margin: 0;
+					padding: 10px 30px 14px;
+					text-decoration: none;
+					font-weight: bold;
+					font-size: 13px;
+					.transition(all 0.25s linear);
+					&:hover{
+						.box-shadow(0px 0px 2px 0px rgba(5,150,253,0.60));
+						background: #63d3ff;
+					}
+				}
+			}
+		}
+	}
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+.compare-active{
+	.body-wrap{
+		overflow: hidden;
+		z-index: 1;
+	}
+	body&{
+		height: 100%;
+		width: 100%;
+	}
+	.compare-overlay{
+		-moz-opacity: 1; /* Mozilla 1.6 и ниже */
+		-khtml-opacity: 1; /* Konqueror 3.1, Safari 1.1 */
+		opacity: 1;
+		left:0;
+		width: 100%;
+		min-width: 1000px;
+	}
+	.overlay{
+		width: 100%;
+	}
+}
