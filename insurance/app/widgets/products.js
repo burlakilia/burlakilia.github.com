@@ -8,7 +8,7 @@ define(function (require, exports) {
         model = require('models/products');
 
     exports.create = function (container) {
-        var region;
+        var region, handler;
 
 
         function change(id){
@@ -17,18 +17,23 @@ define(function (require, exports) {
                 return;
             }
 
-            model.select(id, region, function(err, products) {
+            handler && clearTimeout(handler);
 
-                if (err) {
-                    return;
-                }
+            handler = setTimeout(function() {
 
-                view
-                    .clear(container)
-                    .append(container, products);
+                model.select(id, region, function(err, products) {
 
-            });
+                    if (err) {
+                        return;
+                    }
 
+                    view
+                        .clear(container)
+                        .append(container, products);
+
+                });
+
+            }, 100);
         }
 
         function refresh(data) {
