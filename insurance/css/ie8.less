@@ -199,3 +199,41 @@
 		left: -1000px;
 	}
 }
+.estate .main-content .loss-table .loss-line .select .select-container{
+	*z-index: ~"expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=after></div>'))";
+	*zoom: ~"expression(runtimeStyle.zoom = 1, insertAdjacentHTML('afterBegin', '<div class=before></div>'))";
+	.after{
+		display: block;
+		position: absolute;
+		top:10px;
+		right:11px;
+		width: 8px;
+		height: 11px;
+		background: transparent url("/img/sprite.png")  -94px -104px no-repeat;
+	}
+	.before{
+		display: block;
+		position: absolute;
+		top:0;
+		right:30px;
+		width: 1px;
+		height: 30px;
+		border-right: 1px solid #fff;
+	}
+	.select-data{
+		li{
+			&.active{
+				*z-index: ~"expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=before2></div>'))";
+				.before2{
+					display: block;
+					position: absolute;
+					top:12px;
+					left:6px;
+					width: 10px;
+					height: 8px;
+					background: transparent url("/img/sprite.png")  -83px -104px no-repeat;
+				}
+			}
+		}
+	}
+}

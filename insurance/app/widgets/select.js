@@ -1,7 +1,8 @@
 define(function (require, exports) {
     "use strict";
 
-    var bus = require('bus'),
+    var $ = require('jquery'),
+        bus = require('bus'),
         view = require('views/select'),
         model = require('models/options');
 
@@ -36,22 +37,47 @@ define(function (require, exports) {
         }
 
         function update(id) {
-            container.val(id);
+            select(container.find('.item[data-value="' + id + '"]'));
         }
 
-        function onchange() {
-            container.trigger('update',  [ container.val()]);
+        function open() {
+            opened = !opened;
+            container.toggleClass('open', opened);
         }
 
         function onclick() {
-            opened = !opened;
+            var node = $(this);
 
-            var ct = container.find('option:selected').index();
+            select(node);
+
+            node.attr('data-value') && container.trigger('update', [ node.attr('data-value') ]);
+        }
+
+        function select(node) {
+            var offset;
 
             container
-                .toggleClass('open', opened)
-                .css('offset', ct + 'px');
+                .attr('data-value', node.text())
+                .find('.item').toggleClass('active', false);
 
+            node.toggleClass('active', true);
+            offset = container.find('li.active').index() * -30;
+
+            container.find('.select-data').css('top', offset + 'px')
+        }
+
+        function check(e) {
+
+            if ($(e.target).attr('data-args') === container.attr('data-args') ||
+                $(e.target).parent().parent().attr('data-args') === container.attr('data-args')) {
+
+                opened = !opened;
+            } else {
+                opened = false;
+            }
+
+
+            container.toggleClass('open', opened);
         }
 
         bus
@@ -59,9 +85,9 @@ define(function (require, exports) {
             .on('region:changed', refresh)
             .reemit('region:changed', refresh);
 
-        container
-            .on('change', onchange)
-            .on('click', onclick);
+        $(document).click(check);
+
+        container.on('click', '.item', onclick);
     };
 
 });

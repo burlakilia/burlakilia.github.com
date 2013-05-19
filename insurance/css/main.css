@@ -1627,6 +1627,99 @@ article {
   border: none;
   text-align: center;
 }
+.estate .main-content .loss-table .loss-line .select .select-container {
+  display: block;
+  position: relative;
+  width: 130px;
+  background: #86d5f6;
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s linear;
+  -moz-transition: background-color 0.25s linear;
+  -o-transition: background-color 0.25s linear;
+  -ms-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
+}
+.estate .main-content .loss-table .loss-line .select .select-container ul,
+.estate .main-content .loss-table .loss-line .select .select-container li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.estate .main-content .loss-table .loss-line .select .select-container .select-data {
+  line-height: 30px;
+  width: 99px;
+  font-size: 14px;
+  color: #fff;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: top 0.25s linear;
+  -moz-transition: top 0.25s linear;
+  -o-transition: top 0.25s linear;
+  -ms-transition: top 0.25s linear;
+  transition: top 0.25s linear;
+}
+.estate .main-content .loss-table .loss-line .select .select-container .select-data li {
+  height: 30px;
+  padding: 0 18px 0 20px;
+  background: #86d5f6;
+  -webkit-transition: background-color 0.25s linear;
+  -moz-transition: background-color 0.25s linear;
+  -o-transition: background-color 0.25s linear;
+  -ms-transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear;
+  position: relative;
+}
+.estate .main-content .loss-table .loss-line .select .select-container .select-data li.active:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 6px;
+  width: 10px;
+  height: 8px;
+  background: transparent url("/img/sprite.png") -83px -104px no-repeat;
+}
+.estate .main-content .loss-table .loss-line .select .select-container:hover,
+.estate .main-content .loss-table .loss-line .select .select-container.open {
+  background: #1ab9f8;
+  z-index: 10000;
+}
+.estate .main-content .loss-table .loss-line .select .select-container:hover .select-data li,
+.estate .main-content .loss-table .loss-line .select .select-container.open .select-data li {
+  background: #61d3ff;
+}
+.estate .main-content .loss-table .loss-line .select .select-container:hover .select-data li.active,
+.estate .main-content .loss-table .loss-line .select .select-container.open .select-data li.active {
+  background: #3dc6fb;
+}
+.estate .main-content .loss-table .loss-line .select .select-container.open {
+  overflow: visible;
+}
+.estate .main-content .loss-table .loss-line .select .select-container:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 11px;
+  width: 8px;
+  height: 11px;
+  background: transparent url("/img/sprite.png") -94px -104px no-repeat;
+}
+.estate .main-content .loss-table .loss-line .select .select-container:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 1px;
+  height: 30px;
+  border-right: 1px solid #fff;
+}
 .estate .main-content .loss-table .loss-line .slider {
   right: 187px;
   width: 326px;

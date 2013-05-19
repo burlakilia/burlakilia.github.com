@@ -32,9 +32,9 @@ define(function (require, exports) {
             }
 
             var options = {
-                'interior' :  $('select[data-args="interior"]').find(':selected').text(),
-                'movables' :  $('select[data-args="movables"]').find(':selected').text(),
-                'liability' :  $('select[data-args="liability"]').find(':selected').text()
+                'interior' :  $('.select-container[data-args="interior"]').find('.active').text(),
+                'movables' :  $('.select-container[data-args="movables"]').find('.active').text(),
+                'liability' :  $('.select-container[data-args="liability"]').find('.active').text()
             };
 
             list.push({

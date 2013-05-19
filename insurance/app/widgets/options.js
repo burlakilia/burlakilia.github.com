@@ -17,12 +17,12 @@ define(function (require, exports) {
         }
 
         function refresh() {
-            var value = container.find('select').first().val();
+            var value = container.find('.select .item').first().val();
 
             bus.emit('value:changed', value);
         }
 
-        container.on('update', 'select, .slider .widget', emit);
+        container.on('update', '.select, .slider .widget', emit);
 
         bus
             .on('app:ready', refresh)
