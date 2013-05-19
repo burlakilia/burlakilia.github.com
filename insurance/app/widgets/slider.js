@@ -47,7 +47,7 @@ define(function (require, exports) {
         function label() {
 
             setTimeout(function() {
-                var val = container.parent().parent().find('select option:selected').text();
+                var val = container.parent().parent().find('.select .item.active').text();
 
                 container.find('.ui-slider-handle').attr('hidefocus', 'true').html('<span class="ui-slider-handle-count">' + val + '</span>')
             }, 0);
