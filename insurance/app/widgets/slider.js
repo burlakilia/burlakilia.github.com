@@ -96,6 +96,8 @@ define(function (require, exports) {
             .slider()
             .draggable();
 
+        container.find('ui-slider-handle').removeAttr('href');
+
         container.on('update', label);
     };
 
