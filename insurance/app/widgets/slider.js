@@ -49,7 +49,7 @@ define(function (require, exports) {
 
             setTimeout(function() {
                 var val = container.parent().parent().find('.select .item.active').text();
-
+                container.find('.ui-slider-handle').removeAttr('href');
                 container.find('.ui-slider-handle').attr('hidefocus', 'true').html('<span class="ui-slider-handle-count">' + val + '</span>')
             }, 0);
 
@@ -95,8 +95,6 @@ define(function (require, exports) {
             .on('slidestop', onchange)
             .slider()
             .draggable();
-
-        container.find('ui-slider-handle').removeAttr('href');
 
         container.on('update', label);
     };
