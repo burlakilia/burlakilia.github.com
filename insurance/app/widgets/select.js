@@ -50,7 +50,10 @@ define(function (require, exports) {
 
             select(node);
 
-            node.attr('data-value') && container.trigger('update', [ node.attr('data-value') ]);
+            if (opened) {
+                node.attr('data-value') && container.trigger('update', [ node.attr('data-value') ]);
+            }
+
         }
 
         function select(node) {
