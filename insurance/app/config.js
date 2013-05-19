@@ -5,14 +5,14 @@ define(function () {
     return {
 
         "data":  {
-            "url": "/data.json"
+            "url": "/insurance/data.json"
         },
 
         "locations": {
-            "url": "/locations.json"
+            "url": "/insurance/locations.json"
         },
 
-        "debug": false
+	"debug": false
 
     }
 
