@@ -1,6 +1,11 @@
 var jam = {
     "packages": [
         {
+            "name": "accounting",
+            "location": "packages/accounting",
+            "main": "accounting.js"
+        },
+        {
             "name": "async",
             "location": "packages/async",
             "main": "lib/async.js"
@@ -39,6 +44,11 @@ if (typeof require !== "undefined" && require.config) {
     require.config({
     "packages": [
         {
+            "name": "accounting",
+            "location": "packages/accounting",
+            "main": "accounting.js"
+        },
+        {
             "name": "async",
             "location": "packages/async",
             "main": "lib/async.js"
@@ -75,6 +85,11 @@ if (typeof require !== "undefined" && require.config) {
 else {
     var require = {
     "packages": [
+        {
+            "name": "accounting",
+            "location": "packages/accounting",
+            "main": "accounting.js"
+        },
         {
             "name": "async",
             "location": "packages/async",
