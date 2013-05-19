@@ -2,5 +2,5 @@
     {{#products}}
         <li><a href="#" title="close" class="close-icon" data-link="widgets/compare/remove" data-id="{{id}}">X</a> {{company.name}} ({{name}})</li>
     {{/products}}
-    {{#exists}}<li class="compare-link {{#one}}disable{{/one}}"><a href="#" title="сравнить">сравнить</a> </li>{{/exists}}
+    {{#exists}}<li class="compare-link {{#one}}disable{{/one}}{{^one}}active{{/one}}"><a href="#" title="сравнить">сравнить</a> </li>{{/exists}}
 </ul>

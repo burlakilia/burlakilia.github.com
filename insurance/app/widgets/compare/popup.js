@@ -13,8 +13,13 @@ define(function (require, exports) {
             return false;
         }
 
+        function noop(){
+            return false;
+        }
+
         container
-            .on('click', '.compare-link a', open)
+            .on('click', '.compare-link.active a', open)
+            .on('click', '.compare-link.disable a', noop)
             .on('click', '.close-overlay', close)
 			.on('click', '.overlay', close);
     };
