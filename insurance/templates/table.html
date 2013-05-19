@@ -1,13 +1,13 @@
 <caption><h1>Сравнение программ страхования кварир в Москве и области</h1></caption>
 <thead>
-<tr>
+<tr class="thead">
     <th class="first-th">
         Сумма ущерба, <br/>руб.
     </th>
     {{#products}}
-    <th>
+    <td>
         <strong>{{product.company.name}} </strong> {{name}}
-    </th>
+    </td>
     {{/products}}
 </tr>
 </thead>
@@ -44,10 +44,10 @@
     <td>{{price}}</td>
     {{/products}}
 </tr>
-<tr>
+<tr class="tfoot">
     <th> </th>
     {{#products}}
-    <td><a class="buy-link" href="#" title="купить" data-args="{{id}}">купить</a></td>
+    <td><a class="buy-link" href="/step2.html" title="купить" data-args="{{id}}">купить</a></td>
     {{/products}}
 </tr>
 </tfoot>

@@ -143,7 +143,7 @@
 		}
 	}
 }
-.estate .main-content .product-current .product-current-nav a{
+.product-current-nav a{
 	*z-index: ~"expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=before></div>'))";
 	.before {
 		content: ' ';
@@ -177,5 +177,25 @@
 				}
 			}
 		}
+	}
+}
+.checkbox{
+	*z-index: ~"expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=before></div>'))";
+	.before{
+		top:10px;
+		left: 5px;
+		display: block;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		background: transparent url("/img/sprite.png")  -83px -83px no-repeat;
+	}
+	&.active .before{
+		background-position: -104px -83px;
+	}
+	input {
+		display: block;
+		position: absolute;
+		left: -1000px;
 	}
 }

@@ -189,7 +189,7 @@
 				position: relative;
 				float: right;
 				display: block;
-				padding: 10px 44px 1px 20px;
+				padding: 10px 44px 5px 20px;
 				font-size: 32px;
 				background: #fff;
 			}
@@ -197,51 +197,8 @@
 				width: 21px;
 				height: 24px;
 				background-position: -62px -86px;
-				top:11px;
+				top:8px;
 				right: 14px;
-			}
-		}
-		.product-current{
-			.product-wrap{
-				margin-top: 50px;
-				border-top: 1px solid #d6d6d6;
-				padding: 1px 0 0 0;
-				.product-current-title{
-					margin:0;
-					border-top: 4px solid #e0e0e0;
-					padding: 20px 0 13px 0;
-					color: #444;
-					font-size: 24px;
-					line-height: 28px;
-					font-weight: normal;
-				}
-				.product-current-nav{
-					margin-bottom: 60px;
-					a{
-						display: block;
-						background-color: #e5f7ff;
-						border-left:1px solid #f2fbff;
-						border-right:1px solid #f2fbff;
-						.border-radius(7px);
-						padding: 13px 16px 13px 58px;
-						margin:0 20px 0 0;
-						float: left;
-						text-decoration: none;
-						font-size: 17px;
-						line-height: 17px;
-						&:before{
-							content: ' ';
-							display: block;
-							margin:0 0 -26px -44px;
-							width: 32px;
-							height: 24px;
-							background: transparent url("/img/sprite.png")  -101px top no-repeat;
-						}
-						&.credit:before{
-							background-position: -101px -25px;
-						}
-					}
-				}
 			}
 		}
 		.product-compare{
@@ -252,7 +209,7 @@
 				margin: 0;
 				padding: 0;
 				li{
-					margin: 0 1px 0 0;
+					margin: 0 1px 10px 0;
 					padding: 8px 10px 10px 26px;
 					background: #f2f2f4;
 					float: left;
@@ -286,6 +243,48 @@
 						}
 					}
 				}
+			}
+		}
+	}
+	.product-wrap{
+		margin-top: 50px;
+		border-top: 1px solid #d6d6d6;
+		padding: 1px 0 0 0;
+		.product-current-title{
+			margin:0;
+			border-top: 4px solid #e0e0e0;
+			padding: 20px 0 13px 0;
+			color: #444;
+			font-size: 24px;
+			line-height: 28px;
+			font-weight: normal;
+		}
+	}
+	.product-current-nav{
+		margin:0 0 60px 0;
+		a{
+			display: block;
+			background-color: #e5f7ff;
+			border-left:1px solid #f2fbff;
+			border-right:1px solid #f2fbff;
+			.border-radius(7px);
+			padding: 13px 16px 13px 58px;
+			margin:0 20px 0 0;
+			float: left;
+			text-decoration: none;
+			font-size: 17px;
+			line-height: 17px;
+			min-height: 34px;
+			&:before{
+				content: ' ';
+				display: block;
+				margin:0 0 -26px -44px;
+				width: 32px;
+				height: 24px;
+				background: transparent url("/img/sprite.png")  -101px top no-repeat;
+			}
+			&.credit:before{
+				background-position: -101px -25px;
 			}
 		}
 	}
