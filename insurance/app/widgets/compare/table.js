@@ -25,7 +25,7 @@ define(function (require, exports) {
 
             for (i = 0, max = list.length; i < max; i++) {
 
-                if (item.id === list[i].id) {
+                if (item.id === list[i].product.id) {
                     return;
                 }
 
