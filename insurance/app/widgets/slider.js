@@ -3,6 +3,7 @@ define(function (require, exports) {
 
     require('mustache');
     require('jquery-ui');
+    require('jquery-touch');
 
     var bus = require('bus'),
         model = require('models/options');
@@ -92,7 +93,8 @@ define(function (require, exports) {
 
         container
             .on('slidestop', onchange)
-            .slider();
+            .slider()
+            .draggable();
 
         container.on('update', label);
     };
