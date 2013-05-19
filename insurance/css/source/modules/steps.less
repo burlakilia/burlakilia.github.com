@@ -1,0 +1,282 @@
+.step-2,
+.step-3{
+	.main-header{
+		padding-bottom: 10px;
+		h1,
+		h2{
+			float: none;
+			display: block;
+			line-height: 50px;
+		}
+		h2{
+			padding: 0;
+			margin: 0;
+			line-height: 40px;
+			font-size: 32px;
+			font-weight: normal;
+			color: #333;
+			strong{
+				display: block;
+				color: #19B8F8;
+				font-weight: normal;
+			}
+		}
+	}
+	.estate .main-content{
+		.loss-dfn{
+			padding: 5px 10px 0;
+		}
+		.loss-table{
+			margin-top: 14px;
+			.loss-line{
+				.label{
+					padding: 10px 205px 10px 15px;
+					line-height: 20px;
+					min-height: 20px;
+					color: #535353;
+					font-size: 16px;
+					font-weight: normal;
+				}
+				.select{
+					color: #333;
+					font-size: 16px;
+					text-align: right;
+					top:0;
+					margin: 0;
+					height: auto;
+					padding: 19px 41px 0 14px;
+					width: 150px;
+					.currency-ico{
+						top:23px;
+						right: 20px;
+					}
+				}
+			}
+		}
+	}
+	.product-wrap .product-current-title{
+		padding: 0;
+	}
+	.rules{
+		.rules-title {
+			margin: 0;
+			padding: 13px 100px 13px 0;
+			color: #666;
+			font-size: 16px;
+			line-height: 19px;
+			font-weight: bold;
+		}
+		.rules-span3{
+			width: 30%;
+			color: #666;
+			font-size: 12px;
+			line-height: 12px;
+			p{
+				margin:7px 0 15px 0;
+			}
+		}
+	}
+	.product-current-nav{
+		margin: 30px 0 0 0;
+	}
+	.main-right{
+		.docs{
+			h2{
+				color: #666;
+				padding: 0;
+				min-height: 34px;
+			}
+			p{
+				color: #666;
+				font-size: 12px;
+				line-height: 14px;
+				margin: 12px 0 20px 0;
+			}
+		}
+	}
+}
+.checkbox{
+	position: relative;
+	display: block;
+	color: #666;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 13px 100px 0 35px;
+	outline: none;
+	min-height: 24px;
+	&:before{
+		content: ' ';
+		top:10px;
+		left: 5px;
+		position: absolute;
+		display: block;
+		width: 20px;
+		height: 20px;
+		background: transparent url("/img/sprite.png")  -83px -83px no-repeat;
+	}
+	&.active:before{
+		background-position: -104px -83px;
+	}
+	input{
+		display: none;
+	}
+	&.disabled{
+		cursor: default;
+		opacity: .5;
+		filter: alpha(opacity=50);
+	}
+}
+
+.hr{
+	display: block;
+	padding: 0;
+	margin: 50px 0 0 0;
+	border: none;
+	height: 1px;
+	border-top: 1px solid #d6d6d6;
+	border-bottom: 4px solid #e0e0e0;
+}
+
+.user-data{
+	padding: 16px 0 0 0;
+	.field-label{
+		display: block;
+		padding: 9px 0;
+		position: relative;
+		cursor: auto;
+		.text{
+			display: block;
+			padding: 4px 475px 0 0;
+			min-height: 28px;
+			font-size: 16px;
+			color: #333;
+			small{
+				display: block;
+				font-size: 12px;
+				line-height: 12px;
+				color: #666;
+			}
+		}
+		&.adress{
+			min-height: 72px;
+		}
+		.field{
+			display: block;
+			position: absolute;
+			top:9px;
+			right: 80px;
+			width: 382px;
+			input{
+				width: 360px;
+				border: 1px solid #00b4ff;
+				.border-radius(3px);
+				height: 30px;
+				line-height: 30px;
+				font-size: 16px;
+				color: #666;
+				padding: 0 10px;
+				outline: none;
+				display: inline-block;
+				.transition(all 0.25s linear);
+				&:focus{
+					.box-shadow(0 0 2px 0 #00b4ff)
+				}
+				&.index{
+					width: 75px;
+					margin: 0 10px 8px 0;
+				}
+				&.city{
+					width: 250px;
+					margin: 0 0 8px 0;
+				}
+				&.street{
+					width: 192px;
+					margin: 0 3px 0 0;
+				}
+				&.house,
+				&.corp,
+				&.kv{
+					width: 28px;
+					margin: 0 3px 0 0;
+				}
+				&.kv{
+					margin: 0;
+				}
+				&.tel1{
+					width: 15px;
+					margin: 0 3px 0 0;
+				}
+				&.tel2{
+					width: 34px;
+					margin: 0 3px 0 0;
+				}
+				&.tel3{
+					width: 109px;
+					margin: 0 3px 0 0;
+				}
+				&.pas-ser{
+					width: 34px;
+					margin: 0 3px 0 0;
+				}
+				&.pas-num{
+					width: 109px;
+					margin: 0 3px 0 0;
+				}
+				&.disabled{
+					border-color: #b5eaff;
+					background-color: #fff;
+					color: #ccc;
+				}
+				&.day{
+					width: 13px;
+					margin: 0 3px 0 0;
+				}
+				&.month{
+					width: 13px;
+					margin: 0 3px 0 0;
+				}
+				&.year{
+					width: 48px;
+				}
+				&.wrong{
+					color: #57cdfc;
+				}
+			}
+			.tipbottom{
+				position: relative;
+				display: inline-block;
+				small{
+					display: block;
+					position: absolute;
+					top:32px;
+					left:0;
+					font-size: 12px;
+					line-height: 12px;
+					color: #ccc;
+				}
+			}
+		}
+	}
+	.hr{
+		margin: 20px 0 5px 0;
+	}
+}
+.estate .product-current-nav{
+	.br-text{
+		display: block;
+		padding: 12px 20px;
+		margin:0 20px 0 0;
+		float: left;
+		font-size: 17px;
+		line-height: 17px;
+		min-height: 32px;
+		color: #777;
+	}
+	&.disabled{
+		a{
+			background-color: #f3f3f3;
+			color: #777;
+			cursor: default;
+		}
+	}
+}
