@@ -22,7 +22,7 @@ define(function (require, exports) {
     };
 
     exports.append = function (container, data) {
-        var html = $(Mustache.to_html(template, { products: data.map(format),  exists: data.length > 0    }));
+        var html = $(Mustache.to_html(template, { products: data.map(format),  exists: data.length > 0, one: data.length === 1  }));
 
         window.renderWidgets(html, function() {
             container.append(html);
