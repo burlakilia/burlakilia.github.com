@@ -10,7 +10,7 @@ define(function (require, exports) {
         var opened = false, handler;
 
         function refresh(region) {
-            var old = container.val();
+            var old = container.find('li.active').attr('data-value');
 
             model.select(id, region, function(err, data){
 
@@ -32,7 +32,8 @@ define(function (require, exports) {
             handler && clearTimeout(handler);
 
             handler = setTimeout(function() {
-                container.val(v).trigger('change');
+                update(v);
+                container.trigger('update', [ v ]);
             }, 200)
         }
 
