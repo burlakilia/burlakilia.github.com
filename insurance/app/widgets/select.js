@@ -91,12 +91,6 @@ define(function (require, exports) {
 
         $(document).click(check);
 
-        document.addEventListener('touchend', function(e) {
-            e.preventDefault();
-            var touch = e.touches[0];
-            console.log(touch.pageX + " - " + touch.pageY, e);
-        }, false);
-
         container.on('click', '.item', onclick);
     };
 
