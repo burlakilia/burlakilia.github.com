@@ -1,5 +1,14 @@
 <ul class="select-data" style="top:-60px">
 {{#options}}
-	<li class="item active" data-value="{{id}}">{{value}}</li>
+	<li class="item " data-value="{{id}}">
+		{{value}}
+		<!--[if lte IE 7]>
+		<div class=before2></div>
+		<![endif]-->
+	</li>
 {{/options}}
 </ul>
+<!--[if lte IE 7]>
+<div class=after></div>
+<div class=before></div>
+<![endif]-->

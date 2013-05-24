@@ -200,8 +200,6 @@
 	}
 }
 .estate .main-content .loss-table .loss-line .select .select-container{
-	*z-index: ~"expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=after></div>'))";
-	*zoom: ~"expression(runtimeStyle.zoom = 1, insertAdjacentHTML('afterBegin', '<div class=before></div>'))";
 	.after{
 		display: block;
 		position: absolute;
@@ -223,7 +221,6 @@
 	.select-data{
 		li{
 			&.active{
-				*z-index: ~"expression(runtimeStyle.zIndex = 1, insertAdjacentHTML('afterBegin', '<div class=before2></div>'))";
 				.before2{
 					display: block;
 					position: absolute;

@@ -14,6 +14,7 @@
 			text-transform: uppercase;
 			font-weight: bold;
 			font-size: 13px;
+			font-family: 'Proxima N W10 Bold', Helvetica, Arial, sans-serif;
 			.transition(all 0.25s linear);
 			&.active{
 				background-color: #83d5f8;
@@ -60,6 +61,7 @@
 					display: block;
 					min-height: 60px;
 					color: #333;
+					font-family: 'Proxima N W10 Smbd', 'Myriad Pro', Helvetica, Arial, sans-serif;
 					font-weight: bold;
 					vertical-align: middle;
 				}
@@ -72,20 +74,11 @@
 					right:0;
 					height: 60px;
 					width: 173px;
+					font-family: 'DIN Next W02 Regular', Arial, sans-serif;
+					text-shadow: 0px 0px 1px #fff;
 				}
 				.select{
 					padding: 8px 0 0 14px;
-					select{
-						width: 130px;
-						padding: 0 0 0 20px;
-						height: 30px;
-						line-height: 30px;
-						background: #86d5f6;
-						color: #fff;
-						font-weight: bold;
-						border: none;
-						text-align: center;
-					}
 					.select-container{
 						display: block;
 						position: relative;
@@ -96,6 +89,12 @@
 						line-height: 30px;
 						cursor: pointer;
 						.transition(background-color 0.25s linear);
+						.after{
+							display: none;
+						}
+						.before{
+							display: none;
+						}
 						ul,
 						li{
 							list-style-type: none;
@@ -111,10 +110,10 @@
 							position: absolute;
 							top:0;
 							left:0;
-							.transition(top 0.25s linear);
+							.transition(top 0.5s cubic-bezier(0.645, 0.045, 0.355, 1.000));
 							li{
 								height: 30px;
-								padding: 0 18px 0 20px;
+								padding: 0 18px 0 0;
 								background: #86d5f6;
 								.transition(background-color 0.25s linear);
 								position: relative;
@@ -129,6 +128,9 @@
 										height: 8px;
 										background: transparent url("/img/sprite.png")  -83px -104px no-repeat;
 									}
+								}
+								.before2{
+									display: none;
 								}
 							}
 						}
@@ -309,7 +311,7 @@
 					}
 					&.compare-link{
 						padding: 0;
-						.transition(all 0.25s linear);
+						position: relative;
 						a{
 							padding: 8px 18px 10px 18px;
 							display: block;
@@ -319,15 +321,42 @@
 							font-weight: bold;
 							text-transform: uppercase;
 							font-size: 13px;
+							font-family: 'Proxima N W10 Bold', Helvetica, Arial, sans-serif;
+							.transition(all 0.25s linear);
+							&:hover{
+								.box-shadow(0px 0px 2px 0px rgba(5,150,253,0.60));
+								background: #63d3ff;
+							}
 						}
-						&:hover{
-							.box-shadow(0px 0px 2px 0px rgba(5,150,253,0.60));
-							background: #63d3ff;
+						.explain{
+							display: none;
+							position: absolute;
+							top: 48px;
+							width: 180px;
+							left:0;
+							font-size: 12px;
+							line-height: 14px;
+							color: #4dccff;
+						}
+						&.disable{
+							a{
+								cursor: default;
+								background: #ccc;
+								&:hover{
+									.box-shadow(none);
+								}
+							}
+							.explain{
+								display: block;
+							}
 						}
 					}
 				}
 			}
 		}
+	}
+	.product-current{
+		font-family: 'DIN Next W02 Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
 	}
 	.product-wrap{
 		margin-top: 50px;
@@ -345,8 +374,10 @@
 	}
 	.product-current-nav{
 		margin:0 0 60px 0;
+		font-family: 'Proxima N W10 Smbd', 'Myriad Pro', Helvetica, Arial, sans-serif;
 		a{
 			display: block;
+			color: #4dccff;
 			background-color: #e5f7ff;
 			border-left:1px solid #f2fbff;
 			border-right:1px solid #f2fbff;

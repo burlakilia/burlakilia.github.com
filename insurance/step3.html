@@ -47,6 +47,34 @@
             app.init();
         });
     </script>
+	<style type="text/css">
+	@import url("http://fast.fonts.com/t/1.css?apiType=css&projectid=e362411e-3fa4-49ed-a7c2-778b8b47e960");
+	@font-face{
+		font-family:"DIN Next W01 Light";
+		src:url("/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix");
+		src:url("/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix") format("eot"),url("/fonts/bc176270-17fa-4c78-a343-9fe52824e501.woff") format("woff"),url("/fonts/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf") format("truetype"),url("/fonts/d1b1e866-a411-42ba-8f75-72bf28e23694.svg#d1b1e866-a411-42ba-8f75-72bf28e23694") format("svg");
+	}
+	@font-face{
+		font-family:"DIN Next W02 Regular";
+		src:url("/fonts/21159f5e-cd9e-408a-ba51-65510b4a13aa.eot?#iefix");
+		src:url("/fonts/21159f5e-cd9e-408a-ba51-65510b4a13aa.eot?#iefix") format("eot"),url("/fonts/20007504-6ea2-4d68-93e4-f4769b5d9f14.woff") format("woff"),url("/fonts/1c35aab7-8ddd-402f-8976-1363134c3817.ttf") format("truetype"),url("/fonts/91c8307f-e301-4d44-b0f3-5cff17b3a554.svg#91c8307f-e301-4d44-b0f3-5cff17b3a554") format("svg");
+	}
+	@font-face{
+		font-family:"Proxima N W10 Reg";
+		src:url("/fonts/8fd4bc92-e190-4723-b3e0-bc95e0f51bcb.eot?#iefix");
+		src:url("/fonts/8fd4bc92-e190-4723-b3e0-bc95e0f51bcb.eot?#iefix") format("eot"),url("/fonts/ce8427cc-e7ba-412e-b92d-80cca2fd90d8.woff") format("woff"),url("/fonts/1d8ed8eb-1df9-470a-818f-af961e274bc6.ttf") format("truetype"),url("/fonts/147c25f0-cccb-4d34-b691-07779b8bc557.svg#147c25f0-cccb-4d34-b691-07779b8bc557") format("svg");
+	}
+	@font-face{
+		font-family:"Proxima N W10 Smbd";
+		src:url("/fonts/6cf9553e-18ca-4e01-b5f7-309c37c46bac.eot?#iefix");
+		src:url("/fonts/6cf9553e-18ca-4e01-b5f7-309c37c46bac.eot?#iefix") format("eot"),url("/fonts/2a3eecdd-8017-4783-915e-fba416c042da.woff") format("woff"),url("/fonts/6fdd5814-34a1-435b-abab-7cdbfca58478.ttf") format("truetype"),url("/fonts/045f9457-353b-4c90-a9d1-b2b3b44551cc.svg#045f9457-353b-4c90-a9d1-b2b3b44551cc") format("svg");
+	}
+	@font-face{
+		font-family:"Proxima N W10 Bold";
+		src:url("/fonts/a4999e3a-aee7-4d8f-941d-42cfacb06ad1.eot?#iefix");
+		src:url("/fonts/a4999e3a-aee7-4d8f-941d-42cfacb06ad1.eot?#iefix") format("eot"),url("/fonts/967e80a8-e866-45db-a45b-46bd5a5cd901.woff") format("woff"),url("/fonts/5941dac3-8a82-4fe3-af6e-38921cbc0d86.ttf") format("truetype"),url("/fonts/831e7b75-679b-4120-ae9e-d4ea9b0b919c.svg#831e7b75-679b-4120-ae9e-d4ea9b0b919c") format("svg");
+	}
+	</style>
 </head>
 <body class="step-3">
 <div class="body-wrap container">
@@ -153,12 +181,7 @@
 							<small>Формат: индекс, город, улица, <br/>дом, (корпус), квартира</small>
 						</span>
 						<span class="field">
-							<input type="text" class="index" />
-							<input type="text" class="city" />
-							<input type="text" class="street" />
-							<span class="tipbottom"><input type="text" class="house" /><small>дом</small></span>
-							<span class="tipbottom"><input type="text" class="corp" /><small>корпус</small></span>
-							<span class="tipbottom"><input type="text" class="kv" /><small>кв</small></span>
+							<input type="text" class="index" /><input type="text" class="city" /><input type="text" class="street" /><span class="tipbottom"><input type="text" class="house" /><small>дом</small></span><span class="tipbottom"><input type="text" class="corp" /><small>корпус</small></span><span class="tipbottom"><input type="text" class="kv" /><small>кв</small></span>
 						</span>
 					</div>
 					<div class="field-label">
@@ -167,9 +190,7 @@
 							<small>Формат: +7 (XXX) XXXXXXX</small>
 						</span>
 						<span class="field">
-							<input type="text" class="tel1" />
-							<input type="text" class="tel2" />
-							<input type="text" class="tel3" />
+							<input type="text" class="tel1" /><input type="text" class="tel2" /><input type="text" class="tel3" />
 						</span>
 					</div>
 					<div class="field-label">
@@ -178,8 +199,7 @@
 							<small>Серия / Номер</small>
 						</span>
 						<span class="field">
-							<input type="text" class="pas-ser" />
-							<input type="text" class="pas-num" />
+							<input type="text" class="pas-ser" /><input type="text" class="pas-num" />
 						</span>
 					</div>
 					<label class="field-label">
@@ -197,9 +217,7 @@
 							<small>формат (ДД / MM / ГГГГ)</small>
 						</span>
 						<span class="field">
-							<input type="text" class="day" />
-							<input type="text" class="month" />
-							<input type="text" class="year" />
+							<input type="text" class="day" /><input type="text" class="month" /><input type="text" class="year" />
 						</span>
 					</div>
 					<label class="field-label">

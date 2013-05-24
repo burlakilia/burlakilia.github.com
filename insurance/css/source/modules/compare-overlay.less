@@ -51,6 +51,7 @@
 		h1{
 			font-size: 48px;
 			font-weight: normal;
+			font-family: 'DIN Next W02 Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
 			line-height: 50px;
 			display: inline-block;
 			text-align: left;
@@ -65,7 +66,13 @@
 			padding: 0;
 			border-collapse: collapse;
 			td{
-				.transition(background-color 0.2s linear , color 0.2s linear);
+				.transition(background-color 0.2s linear , color 0.2s linear , text-shadow 0.2s linear);
+			}
+			th{
+				font-family: 'Proxima N W10 Smbd', 'Myriad Pro', Helvetica, Arial, sans-serif;
+			}
+			td,th{
+				width: 200px;
 			}
 			thead{
 				td,th{
@@ -116,22 +123,26 @@
 			tfoot{
 				.first-tf{
 					th,td{
-						line-height: 43px;
+						position: relative;
+						padding-top: 16px;
 						&:before{
 							content: ' ';
 							display: block;
 							height: 1px;
 							background: #fff;
 							border-bottom: 1px solid #ccc;
-							position: relative;
-							top:-48px;
-							left:-8px;
+							position: absolute;
+							top:0;
+							left:0;
 							width: 100%;
-							padding: 0 8px;
 						}
 					}
 					td{
 						font-size: 40px;
+						line-height: 43px;
+						font-family: 'DIN Next W02 Regular', 'Myriad Pro', Helvetica, Arial, sans-serif;
+						font-weight: bold;
+						text-shadow: 0px 0px 1px #333;
 					}
 				}
 				.buy-link{
