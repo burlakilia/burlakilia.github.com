@@ -24,17 +24,20 @@ define(function(require, exports) {
 		}
 
 		function next() {
-			var key = Math.floor(Math.random() * data.length);
+			var len = data.length,
+				key = Math.floor(Math.random() * len);
 
-			if (answers.length === data.length) {
+			if (answers.length === len) {
 				node.trigger('completed',  [ answers ]);
 				node.find('form').empty();
 				return;
 			}
 
 			while (answers.filter(function(a) { return a.id === key }).length !== 0) {
-				key = Math.floor(Math.random() * data.length);
+				key = Math.floor(Math.random() * len);
 			}
+
+			console.log(key);
 
 			current = data[key];
 
@@ -42,7 +45,7 @@ define(function(require, exports) {
 				return 0.5 - Math.random();
 			});
 
-			current.remind = data.length - answers.length;
+			current.remind = len - answers.length;
 
 			node.find('form').html(mustache.render(template, current));
 		}
