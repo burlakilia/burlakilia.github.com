@@ -37,8 +37,6 @@ define(function(require, exports) {
 				key = Math.floor(Math.random() * len);
 			}
 
-			console.log(key);
-
 			current = data[key];
 
 			current.variants = current.variants.sort(function() {
@@ -52,6 +50,10 @@ define(function(require, exports) {
 
 		function onsubmit() {
 			var answer = +node.find('[name="answer"]:checked').val();
+
+			if( answer < 1 || answer > 4 || isNaN(answer)) {
+				return false;
+			}
 
 			current.isCorrect = current.correct === answer;
 			current.userAnswer = answer;
