@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+
+        var require = {
+            baseUrl: './app',
+            paths: {
+                jquery: './lib/jquery',
+                mustache: './lib/mustache'
+            }
+        }
+
+    </script>
+    <script src="./app/lib/require.js" data-main="boot"></script>
+</head>
+<body>
+    <section data-widget="results"  class="test">
+        <div class="results"></div>
+        <div class="questions" data-widget="generator">
+            <form></form>
+            <br/>
+            <a href="#" class="repeat">Заново</a>
+        </div>
+    </section>
+</body>
+</html>
