@@ -2214,7 +2214,7 @@ define(function() {
 			"value": "Аплазия.",
 			"key": 1
 		}, {
-			"value": "",
+			"value": "Атипизм",
 			"key": 2
 		}, {
 			"value": "Анаплазия.",
