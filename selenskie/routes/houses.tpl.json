@@ -1,0 +1,31 @@
+{
+		"id": "{{id}}",
+		"geometry": {
+			"type": "FeatureCollection",
+			"features": [
+				{
+					"geometry": {
+						"type": "GeometryCollection",
+						"geometries": [
+							{
+								"type": "Polygon",
+								"coordinates": [
+									{{polygon}}
+								]
+							}
+						]
+					},
+					"type": "Feature",
+					"properties": []
+				}
+			]
+		},
+		"data": {
+			"text": "",
+			"status": "{{status}}",
+			"images": "[\"\",\"\",\"\"]",
+			"number": "{{number}}",
+			"price": "",
+			"sq": "{{sq}}"
+		}
+	}
