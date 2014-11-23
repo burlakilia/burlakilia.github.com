@@ -1,1 +1,3224 @@
-{"places":[]}
+{
+  "places": [
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        188.5,
+                        77
+                      ],
+                      [
+                        210.5,
+                        98
+                      ],
+                      [
+                        231,
+                        82
+                      ],
+                      [
+                        201.5,
+                        67.5
+                      ],
+                      [
+                        188.5,
+                        77
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "286",
+        "price": "",
+        "sq": "876"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -530,
+                        158
+                      ],
+                      [
+                        -528,
+                        128.5
+                      ],
+                      [
+                        -545,
+                        125
+                      ],
+                      [
+                        -583.5,
+                        151
+                      ],
+                      [
+                        -583.5,
+                        150.5
+                      ],
+                      [
+                        -583.5,
+                        150.5
+                      ],
+                      [
+                        -530,
+                        158
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "50",
+        "price": "",
+        "sq": "1901"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -589,
+                        152
+                      ],
+                      [
+                        -546.5,
+                        122
+                      ],
+                      [
+                        -564.5,
+                        102
+                      ],
+                      [
+                        -609.5,
+                        131
+                      ],
+                      [
+                        -606.5,
+                        149.5
+                      ],
+                      [
+                        -589,
+                        152
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "49",
+        "price": "",
+        "sq": "2327"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -609,
+                        129.5
+                      ],
+                      [
+                        -567,
+                        101.5
+                      ],
+                      [
+                        -572,
+                        96
+                      ],
+                      [
+                        -571.5,
+                        85
+                      ],
+                      [
+                        -615,
+                        80
+                      ],
+                      [
+                        -609,
+                        129.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "48",
+        "price": "",
+        "sq": "2279"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -615,
+                        79.5
+                      ],
+                      [
+                        -572.5,
+                        84.5
+                      ],
+                      [
+                        -572,
+                        66
+                      ],
+                      [
+                        -615,
+                        61.5
+                      ],
+                      [
+                        -615,
+                        79.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "47",
+        "price": "",
+        "sq": "1120"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -614,
+                        61
+                      ],
+                      [
+                        -571.5,
+                        64.5
+                      ],
+                      [
+                        -572,
+                        46
+                      ],
+                      [
+                        -614,
+                        42.5
+                      ],
+                      [
+                        -614,
+                        61
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "46",
+        "price": "",
+        "sq": "1080"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -612,
+                        42
+                      ],
+                      [
+                        -572.5,
+                        45
+                      ],
+                      [
+                        -572.5,
+                        26
+                      ],
+                      [
+                        -612,
+                        22
+                      ],
+                      [
+                        -612,
+                        42
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "45",
+        "price": "",
+        "sq": "1051"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -611.5,
+                        21.5
+                      ],
+                      [
+                        -572,
+                        24
+                      ],
+                      [
+                        -572,
+                        4.5
+                      ],
+                      [
+                        -611.5,
+                        2
+                      ],
+                      [
+                        -611.5,
+                        21.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "44",
+        "price": "",
+        "sq": "1018"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -610.5,
+                        1.5
+                      ],
+                      [
+                        -572.5,
+                        4.5
+                      ],
+                      [
+                        -572.5,
+                        -15.5
+                      ],
+                      [
+                        -610.5,
+                        -18.5
+                      ],
+                      [
+                        -610.5,
+                        1.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "43",
+        "price": "",
+        "sq": "988"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -609,
+                        -19
+                      ],
+                      [
+                        -572.5,
+                        -16
+                      ],
+                      [
+                        -572,
+                        -37
+                      ],
+                      [
+                        -608.5,
+                        -40
+                      ],
+                      [
+                        -609,
+                        -19
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "42",
+        "price": "",
+        "sq": "955"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -608,
+                        -40.5
+                      ],
+                      [
+                        -573,
+                        -36
+                      ],
+                      [
+                        -573,
+                        -57
+                      ],
+                      [
+                        -609.5,
+                        -60.5
+                      ],
+                      [
+                        -608,
+                        -40.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "41",
+        "price": "",
+        "sq": "967"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -610,
+                        -60.5
+                      ],
+                      [
+                        -573,
+                        -57.5
+                      ],
+                      [
+                        -573,
+                        -77.5
+                      ],
+                      [
+                        -613.5,
+                        -83
+                      ],
+                      [
+                        -610,
+                        -60.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "40",
+        "price": "",
+        "sq": "1006"
+      }
+    },
+    {
+      "id": "4",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -613,
+                        -83
+                      ],
+                      [
+                        -573.5,
+                        -78
+                      ],
+                      [
+                        -574,
+                        -90
+                      ],
+                      [
+                        -570.5,
+                        -96
+                      ],
+                      [
+                        -619,
+                        -128
+                      ],
+                      [
+                        -613,
+                        -83
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "39",
+        "price": "",
+        "sq": "1740"
+      }
+    },
+    {
+      "id": "5",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -619,
+                        -128.5
+                      ],
+                      [
+                        -571,
+                        -95.5
+                      ],
+                      [
+                        -552,
+                        -112.5
+                      ],
+                      [
+                        -597,
+                        -150
+                      ],
+                      [
+                        -625,
+                        -153
+                      ],
+                      [
+                        -619,
+                        -128.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "38",
+        "price": "",
+        "sq": "2594"
+      }
+    },
+    {
+      "id": "6",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -596.5,
+                        -150.5
+                      ],
+                      [
+                        -550,
+                        -113
+                      ],
+                      [
+                        -536,
+                        -119
+                      ],
+                      [
+                        -541,
+                        -152
+                      ],
+                      [
+                        -596.5,
+                        -150.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "37",
+        "price": "",
+        "sq": "1620"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -541,
+                        -152.5
+                      ],
+                      [
+                        -534.5,
+                        -120
+                      ],
+                      [
+                        -512.5,
+                        -121
+                      ],
+                      [
+                        -517.5,
+                        -154.5
+                      ],
+                      [
+                        -541,
+                        -152.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "36",
+        "price": "",
+        "sq": "916"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -517.5,
+                        -154
+                      ],
+                      [
+                        -512,
+                        -120
+                      ],
+                      [
+                        -491.5,
+                        -120.5
+                      ],
+                      [
+                        -496,
+                        -156
+                      ],
+                      [
+                        -517.5,
+                        -154
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "35",
+        "price": "",
+        "sq": "869"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -497,
+                        -155.5
+                      ],
+                      [
+                        -492,
+                        -120.5
+                      ],
+                      [
+                        -472.5,
+                        -122
+                      ],
+                      [
+                        -477.5,
+                        -157
+                      ],
+                      [
+                        -497,
+                        -155.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "34",
+        "price": "",
+        "sq": "871"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -464,
+                        -158.5
+                      ],
+                      [
+                        -453.5,
+                        -157
+                      ],
+                      [
+                        -454,
+                        -121
+                      ],
+                      [
+                        -471,
+                        -121
+                      ],
+                      [
+                        -475.5,
+                        -157.5
+                      ],
+                      [
+                        -464,
+                        -158.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "33",
+        "price": "",
+        "sq": "961"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -452.5,
+                        -121
+                      ],
+                      [
+                        -432,
+                        -118
+                      ],
+                      [
+                        -428.5,
+                        -151.5
+                      ],
+                      [
+                        -452,
+                        -156.5
+                      ],
+                      [
+                        -452.5,
+                        -121
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "32",
+        "price": "",
+        "sq": "994"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -431.5,
+                        -116.5
+                      ],
+                      [
+                        -428.5,
+                        -151.5
+                      ],
+                      [
+                        -405,
+                        -148.5
+                      ],
+                      [
+                        -409,
+                        -112
+                      ],
+                      [
+                        -431.5,
+                        -116.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "31",
+        "price": "",
+        "sq": "997"
+      }
+    },
+    {
+      "id": "4",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -408,
+                        -112.5
+                      ],
+                      [
+                        -404,
+                        -147
+                      ],
+                      [
+                        -383.5,
+                        -143
+                      ],
+                      [
+                        -386.5,
+                        -108.5
+                      ],
+                      [
+                        -408,
+                        -112.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "30",
+        "price": "",
+        "sq": "970"
+      }
+    },
+    {
+      "id": "5",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -386.5,
+                        -108.5
+                      ],
+                      [
+                        -382.5,
+                        -143
+                      ],
+                      [
+                        -359.5,
+                        -139.5
+                      ],
+                      [
+                        -364.5,
+                        -104.5
+                      ],
+                      [
+                        -386.5,
+                        -108.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "29",
+        "price": "",
+        "sq": "964"
+      }
+    },
+    {
+      "id": "6",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -364.5,
+                        -104.5
+                      ],
+                      [
+                        -359,
+                        -138.5
+                      ],
+                      [
+                        -337.5,
+                        -135
+                      ],
+                      [
+                        -343.5,
+                        -101
+                      ],
+                      [
+                        -364.5,
+                        -104.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "28",
+        "price": "",
+        "sq": "1006"
+      }
+    },
+    {
+      "id": "7",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -343,
+                        -98.5
+                      ],
+                      [
+                        -336.5,
+                        -136
+                      ],
+                      [
+                        -313.5,
+                        -132
+                      ],
+                      [
+                        -320,
+                        -94.5
+                      ],
+                      [
+                        -343,
+                        -98.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "27",
+        "price": "",
+        "sq": "1069"
+      }
+    },
+    {
+      "id": "8",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -318.5,
+                        -95.5
+                      ],
+                      [
+                        -313.5,
+                        -130
+                      ],
+                      [
+                        -292,
+                        -126
+                      ],
+                      [
+                        -296.5,
+                        -90.5
+                      ],
+                      [
+                        -318.5,
+                        -95.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "28",
+        "price": "",
+        "sq": "1065"
+      }
+    },
+    {
+      "id": "9",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -296,
+                        -89
+                      ],
+                      [
+                        -292,
+                        -126
+                      ],
+                      [
+                        -267.5,
+                        -120.5
+                      ],
+                      [
+                        -269,
+                        -84.5
+                      ],
+                      [
+                        -296,
+                        -89
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "25",
+        "price": "",
+        "sq": "1056"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -259,
+                        -83.5
+                      ],
+                      [
+                        -268.5,
+                        -84.5
+                      ],
+                      [
+                        -267,
+                        -122.5
+                      ],
+                      [
+                        -247.5,
+                        -125
+                      ],
+                      [
+                        -241.5,
+                        -85
+                      ],
+                      [
+                        -259,
+                        -83.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "24",
+        "price": "",
+        "sq": "1131"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -241,
+                        -85.5
+                      ],
+                      [
+                        -246,
+                        -126.5
+                      ],
+                      [
+                        -240.5,
+                        -126.5
+                      ],
+                      [
+                        -241,
+                        -123
+                      ],
+                      [
+                        -225,
+                        -124
+                      ],
+                      [
+                        -219.5,
+                        -88
+                      ],
+                      [
+                        -241,
+                        -85.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "23",
+        "price": "",
+        "sq": "1073"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -218,
+                        -88.5
+                      ],
+                      [
+                        -223.5,
+                        -124
+                      ],
+                      [
+                        -200.5,
+                        -126.5
+                      ],
+                      [
+                        -194.5,
+                        -91
+                      ],
+                      [
+                        -218,
+                        -88.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "22",
+        "price": "",
+        "sq": "1034"
+      }
+    },
+    {
+      "id": "4",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -194.5,
+                        -91
+                      ],
+                      [
+                        -201,
+                        -125.5
+                      ],
+                      [
+                        -177.5,
+                        -128
+                      ],
+                      [
+                        -171.5,
+                        -94.5
+                      ],
+                      [
+                        -194.5,
+                        -91
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "21",
+        "price": "",
+        "sq": "1019"
+      }
+    },
+    {
+      "id": "5",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -172,
+                        -93.5
+                      ],
+                      [
+                        -177.5,
+                        -129.5
+                      ],
+                      [
+                        -154,
+                        -131.5
+                      ],
+                      [
+                        -149,
+                        -96
+                      ],
+                      [
+                        -172,
+                        -93.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "20",
+        "price": "",
+        "sq": "1015"
+      }
+    },
+    {
+      "id": "6",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -149,
+                        -95.5
+                      ],
+                      [
+                        -155,
+                        -130
+                      ],
+                      [
+                        -131.5,
+                        -133
+                      ],
+                      [
+                        -126,
+                        -98
+                      ],
+                      [
+                        -149,
+                        -95.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "19",
+        "price": "",
+        "sq": "999"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -125.5,
+                        -99
+                      ],
+                      [
+                        -131,
+                        -132.5
+                      ],
+                      [
+                        -108,
+                        -136
+                      ],
+                      [
+                        -103,
+                        -102
+                      ],
+                      [
+                        -125.5,
+                        -99
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "18",
+        "price": "",
+        "sq": "1004"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -103,
+                        -102
+                      ],
+                      [
+                        -107,
+                        -135.5
+                      ],
+                      [
+                        -84.5,
+                        -138.5
+                      ],
+                      [
+                        -80,
+                        -104
+                      ],
+                      [
+                        -103,
+                        -102
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "18",
+        "price": "",
+        "sq": "995"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -79,
+                        -103.5
+                      ],
+                      [
+                        -85,
+                        -138
+                      ],
+                      [
+                        -62,
+                        -141
+                      ],
+                      [
+                        -56.5,
+                        -106.5
+                      ],
+                      [
+                        -79,
+                        -103.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "16",
+        "price": "",
+        "sq": "1004"
+      }
+    },
+    {
+      "id": "4",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -55.5,
+                        -107.5
+                      ],
+                      [
+                        -61,
+                        -140.5
+                      ],
+                      [
+                        -38,
+                        -143.5
+                      ],
+                      [
+                        -34,
+                        -108.5
+                      ],
+                      [
+                        -55.5,
+                        -107.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "15",
+        "price": "",
+        "sq": "996"
+      }
+    },
+    {
+      "id": "5",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -33,
+                        -109.5
+                      ],
+                      [
+                        -38,
+                        -143.5
+                      ],
+                      [
+                        -14.5,
+                        -147
+                      ],
+                      [
+                        -10.5,
+                        -112
+                      ],
+                      [
+                        -33,
+                        -109.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "14",
+        "price": "",
+        "sq": "1003"
+      }
+    },
+    {
+      "id": "6",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -10,
+                        -110.5
+                      ],
+                      [
+                        -15.5,
+                        -146
+                      ],
+                      [
+                        7.5,
+                        -148.5
+                      ],
+                      [
+                        12,
+                        -113
+                      ],
+                      [
+                        -10,
+                        -110.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "13",
+        "price": "",
+        "sq": "997"
+      }
+    },
+    {
+      "id": "7",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        13,
+                        -114
+                      ],
+                      [
+                        9,
+                        -148
+                      ],
+                      [
+                        33,
+                        -151
+                      ],
+                      [
+                        37,
+                        -116.5
+                      ],
+                      [
+                        13,
+                        -114
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "12",
+        "price": "",
+        "sq": "1051"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        54.5,
+                        -118
+                      ],
+                      [
+                        50,
+                        -153.5
+                      ],
+                      [
+                        74,
+                        -157
+                      ],
+                      [
+                        78.5,
+                        -121.5
+                      ],
+                      [
+                        54.5,
+                        -118
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "11",
+        "price": "",
+        "sq": "1056"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        78,
+                        -121
+                      ],
+                      [
+                        76,
+                        -156
+                      ],
+                      [
+                        96.5,
+                        -159
+                      ],
+                      [
+                        99.5,
+                        -123.5
+                      ],
+                      [
+                        78,
+                        -121
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "10",
+        "price": "",
+        "sq": "939"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        100,
+                        -123
+                      ],
+                      [
+                        97,
+                        -158.5
+                      ],
+                      [
+                        119,
+                        -161
+                      ],
+                      [
+                        122.5,
+                        -125.5
+                      ],
+                      [
+                        100,
+                        -123
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "9",
+        "price": "",
+        "sq": "939"
+      }
+    },
+    {
+      "id": "4",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        124,
+                        -126
+                      ],
+                      [
+                        120,
+                        -160.5
+                      ],
+                      [
+                        141,
+                        -164.5
+                      ],
+                      [
+                        144.5,
+                        -128.5
+                      ],
+                      [
+                        124,
+                        -126
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "8",
+        "price": "",
+        "sq": "939"
+      }
+    },
+    {
+      "id": "5",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        144.5,
+                        -127.5
+                      ],
+                      [
+                        142,
+                        -163.5
+                      ],
+                      [
+                        162,
+                        -165.5
+                      ],
+                      [
+                        165.5,
+                        -130
+                      ],
+                      [
+                        144.5,
+                        -127.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "7",
+        "price": "",
+        "sq": "939"
+      }
+    },
+    {
+      "id": "6",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        166.5,
+                        -130.5
+                      ],
+                      [
+                        164,
+                        -165
+                      ],
+                      [
+                        177,
+                        -168
+                      ],
+                      [
+                        190.5,
+                        -166.5
+                      ],
+                      [
+                        189,
+                        -132.5
+                      ],
+                      [
+                        166.5,
+                        -130.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "6",
+        "price": "",
+        "sq": "1041"
+      }
+    },
+    {
+      "id": "7",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        190,
+                        -132.5
+                      ],
+                      [
+                        190.5,
+                        -166.5
+                      ],
+                      [
+                        212,
+                        -167
+                      ],
+                      [
+                        210,
+                        -132.5
+                      ],
+                      [
+                        190,
+                        -132.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "5",
+        "price": "",
+        "sq": "940"
+      }
+    },
+    {
+      "id": "8",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        210,
+                        -131.5
+                      ],
+                      [
+                        213,
+                        -166
+                      ],
+                      [
+                        259,
+                        -166.5
+                      ],
+                      [
+                        260,
+                        -165
+                      ],
+                      [
+                        218.5,
+                        -132
+                      ],
+                      [
+                        210,
+                        -131.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "4",
+        "price": "",
+        "sq": "1266"
+      }
+    },
+    {
+      "id": "9",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        227.5,
+                        -133.5
+                      ],
+                      [
+                        272,
+                        -167.5
+                      ],
+                      [
+                        278.5,
+                        -168
+                      ],
+                      [
+                        276.5,
+                        -133.5
+                      ],
+                      [
+                        227.5,
+                        -133.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "3",
+        "price": "",
+        "sq": "1232"
+      }
+    },
+    {
+      "id": "10",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        279,
+                        -132
+                      ],
+                      [
+                        281,
+                        -167.5
+                      ],
+                      [
+                        306,
+                        -168
+                      ],
+                      [
+                        303.5,
+                        -132
+                      ],
+                      [
+                        279,
+                        -132
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "2",
+        "price": "",
+        "sq": "1151"
+      }
+    },
+    {
+      "id": "11",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        303.5,
+                        -133
+                      ],
+                      [
+                        306.5,
+                        -168.5
+                      ],
+                      [
+                        339,
+                        -170.5
+                      ],
+                      [
+                        333,
+                        -133
+                      ],
+                      [
+                        303.5,
+                        -133
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "1",
+        "price": "",
+        "sq": "1279"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -528.5,
+                        158.5
+                      ],
+                      [
+                        -526.5,
+                        127
+                      ],
+                      [
+                        -494,
+                        131
+                      ],
+                      [
+                        -495.5,
+                        163.5
+                      ],
+                      [
+                        -528.5,
+                        158.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "51",
+        "price": "",
+        "sq": "1583"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -495.5,
+                        163.5
+                      ],
+                      [
+                        -494,
+                        132.5
+                      ],
+                      [
+                        -470,
+                        136
+                      ],
+                      [
+                        -473,
+                        167.5
+                      ],
+                      [
+                        -495.5,
+                        163.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "52",
+        "price": "",
+        "sq": "1141"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -473,
+                        167.5
+                      ],
+                      [
+                        -470.5,
+                        137
+                      ],
+                      [
+                        -446,
+                        138.5
+                      ],
+                      [
+                        -449,
+                        171.5
+                      ],
+                      [
+                        -473,
+                        167.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "53",
+        "price": "",
+        "sq": "1127"
+      }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -448.5,
+                        171
+                      ],
+                      [
+                        -445.5,
+                        140
+                      ],
+                      [
+                        -423,
+                        143
+                      ],
+                      [
+                        -425.5,
+                        175
+                      ],
+                      [
+                        -448.5,
+                        171
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "54",
+        "price": "",
+        "sq": "1134"
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -425.5,
+                        175
+                      ],
+                      [
+                        -423,
+                        143.5
+                      ],
+                      [
+                        -400.5,
+                        147
+                      ],
+                      [
+                        -403,
+                        179
+                      ],
+                      [
+                        -425.5,
+                        175
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "55",
+        "price": "",
+        "sq": "1134"
+      }
+    },
+    {
+      "id": "3",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -402.5,
+                        179.5
+                      ],
+                      [
+                        -399.5,
+                        147.5
+                      ],
+                      [
+                        -375.5,
+                        151.5
+                      ],
+                      [
+                        -378.5,
+                        183
+                      ],
+                      [
+                        -402.5,
+                        179.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "56",
+        "price": "",
+        "sq": "1151"
+      }
+    },
+    {
+      "id": "4",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -379.5,
+                        183
+                      ],
+                      [
+                        -376,
+                        151
+                      ],
+                      [
+                        -352,
+                        155
+                      ],
+                      [
+                        -356.5,
+                        186.5
+                      ],
+                      [
+                        -379.5,
+                        183
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "57",
+        "price": "",
+        "sq": "1169"
+      }
+    },
+    {
+      "id": "5",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -355,
+                        186.5
+                      ],
+                      [
+                        -352.5,
+                        154.5
+                      ],
+                      [
+                        -329.5,
+                        157
+                      ],
+                      [
+                        -333,
+                        190.5
+                      ],
+                      [
+                        -355,
+                        186.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "58",
+        "price": "",
+        "sq": "1142"
+      }
+    },
+    {
+      "id": "6",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -332,
+                        190.5
+                      ],
+                      [
+                        -329,
+                        159
+                      ],
+                      [
+                        -308,
+                        161.5
+                      ],
+                      [
+                        -310.5,
+                        193.5
+                      ],
+                      [
+                        -332,
+                        190.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "59",
+        "price": "",
+        "sq": "1167"
+      }
+    },
+    {
+      "id": "7",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -310,
+                        194
+                      ],
+                      [
+                        -307,
+                        162
+                      ],
+                      [
+                        -286,
+                        164.5
+                      ],
+                      [
+                        -291.5,
+                        198
+                      ],
+                      [
+                        -310,
+                        194
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "new",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "60",
+        "price": "",
+        "sq": "1099"
+      }
+    }
+  ]
+}
