@@ -11,7 +11,7 @@ var layersStyle = {
                 "strokeWidth": "1",
                 "strokeColor": "green",
                 "fillColor": "green", 
-                "fillOpacity": "0",
+                "fillOpacity": "0.2",
                 "pointRadius": "3", 
                 "cursor": "default"
             },
