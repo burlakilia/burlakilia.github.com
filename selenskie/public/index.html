@@ -22,16 +22,17 @@ header('Content-type: text/html; charset=utf-8');
                 saved = 0,
                 timer;
 
-            var countImages = 4, // максимальное количество картинок для участка
+            var countImages = 1, // максимальное количество картинок для участка
                 formSelect = false, // признак того что пользователь выбрал сущность через форму
-                imagePath = "/genplan/data/"; // url путь к хранилищу картинок
+                imagePath = "./photo"; // url путь к хранилищу картинок
 
             var options = {
                 imgUrl: "img/plan.jpg",
                 imgWidth: 1600,
                 imgHeight: 800,
                 isAdmin: true,
-                jsonUrl: 'data/houses.json',
+                jsonUrl: 'data/houses_new.json',
+                userSettings: userStatus,
                 onSelect: show,
                 onUnselect: hide
             };
@@ -50,8 +51,8 @@ header('Content-type: text/html; charset=utf-8');
                     mouse.x = e.pageX;
                     mouse.y = e.pageY;
 
-                    $("#info").css("left",mouse.x - 10  + "px");
-                    $("#info").css("top",mouse.y + 20 + "px");
+                    $("#info").css("left",mouse.x - 56  + "px");
+                    $("#info").css("top",mouse.y - 135 + "px");
                 }
             });
 
@@ -86,6 +87,7 @@ header('Content-type: text/html; charset=utf-8');
                 $form.find('[name="number"]').focus();
             });
 
+
             $(window).resize(function() {
                 $("#map").css("height", $(window).height() + "px");
             });
@@ -104,6 +106,7 @@ header('Content-type: text/html; charset=utf-8');
                     <option value="new">новый</option>
                     <option value="sold">проданный</option>
                     <option value="wait">ожидание</option>
+                    <option value="work">раб</option>
                 </select>
             </label>
             <label>тип
@@ -120,17 +123,20 @@ header('Content-type: text/html; charset=utf-8');
         <div id="preloader"><div id="preloaderProgress">Загрузка...</div></div>
         <div id="map" style="position:absolute; width:100%; height: 1000px; border: none;"></div>
         <div id="info" style="display: none; opacity: 0.9; font-size: 0.9em;">
+            <div class="images"></div>
             <div class="header"></div>
             <div class="content" style="vertical-align: top;">
-                <div class='holderNumber' style="font-weight: bold;">№<span class='number'></span></div>
+                <div class='holderNumber' style="font-weight: bold; padding-left: 65px; font-size: 24px; padding-top: 2px;">№<span class='number'></span></div>
                 <div class='holderText' style="font-weight: bold;"></div>
                 <div class='holderDesc'></div>
-                <div class='holderStatus'>Статус:<span class="status"></span></div>
-                <div class='holderSq'>Площадь:<span class="sq"></span></div>
-                <div class='holderPrice'>Цена:<span class="price"></span></div>
-                <div class="images"></div>
+                <div class='holderStatus'>Статус:&nbsp;<span class="status"></span></div>
+                <div class='holderSq'>Площадь:&nbsp;<span class="sq"></span></div>
+                <div class='holderPrice'>Цена сотки:&nbsp;<span class="sq_price"></span></div>
+                <div class='holderPrice'>Цена:&nbsp;<span class="price"></span></div>
             </div>
             <div class="footer"></div>
         </div>
     </body>
 </html>
+
+

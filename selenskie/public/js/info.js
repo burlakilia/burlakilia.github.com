@@ -1,3 +1,11 @@
+var prices = {
+	1: 100,
+	2: 85,
+	3: 70,
+	4: 55,
+	5: 40
+};
+
 /**
  * Функция загрузки изображения, для выбранного учатска с заданным номером
  * @param id - идетификатор участка
@@ -6,6 +14,10 @@
  */
 function loadImage (id, num, holder) {
 	var img = $('<img />');
+
+	if (false) {
+		return;
+	}
 
 	$(img).bind({
 		load: function() {
@@ -17,9 +29,8 @@ function loadImage (id, num, holder) {
 		}
 	});
 
-	$(img).attr('src',imagePath + '/'+ id + '-' + num + '.jpg');
+	$(img).attr('src',imagePath + '/'+ id + '-' + num + '.png');
 }
-
 
 function hide() {
 	if (!formSelect) {
@@ -28,13 +39,12 @@ function hide() {
 }
 
 function show(data) {
-	console.log("show", data, mouse);
 	$("#info").css("display", "block");
 	$("#info .id").html(data['id']);
 	$("#info .number").html(data['number']);
-	$("#info .price").html(data['price'] + " руб.");
 
-	var sq = 0;
+	var sq = 0,
+	    price = prices[data.type || 3] * 1000;
 
 	try {
 		sq = parseInt(data['sq']);
@@ -43,13 +53,19 @@ function show(data) {
 
 	}
 
+	price *= sq;
+
+	$("#info .price").html(price.formatMoney(2, '.', ' ') + " руб.");
 	$("#info .sq").html(sq + " сот.");
+	$("#info .sq_price").html((prices[data.type || 3] * 1000).formatMoney(2, '.', ' ') + " руб.");
+
 	switch(data["status"]) {
 		case 'new': $("#info .status").html("свободно"); break;
-		case 'wait': $("#info .status").html("бронь"); break;
-		case 'sold': $("#info .status").html("проданно"); break;
-		case 'work': $("#info .status").html("рабочая"); break;
+		case 'wait': $("#info .status").html("забронировано"); break;
+		case 'sold': $("#info .status").html("уже проданно"); break;
+		case 'work': $("#info .holderDesc").html("Зона отдыха"); break;
 	}
+
 	$("#info .holderText").css("display","none");
 	$("#info .holderDesc").css("display","none");
 
@@ -72,7 +88,7 @@ function show(data) {
 	if (data["status"] == 'work') {
 		$("#info .holderStatus").css("display","none");
 		$("#info .holderSq").css("display","none");
-		$("#info .holderDesc").css("display","none");
+		$("#info .holderDesc").css("display","block");
 
 		$("#info .holderPrice").css("display","none");
 		$("#info .holderText").css("display","block");
@@ -80,9 +96,28 @@ function show(data) {
 		$("#info .holderNumber").css("display","none");
 	}
 
+	$("#info")
+		.toggleClass('new', data.status === 'new')
+		.toggleClass('wait', data.status === 'wait')
+		.toggleClass('sold', data.status === 'sold')
+		.toggleClass('work', data.status === 'work');
+
 	$("#info .images").html("");
+
 
 	for(var i=0; i<countImages; i++) {
 		loadImage(data['number'], i, $("#info .images"));
 	}
+
 }
+
+Number.prototype.formatMoney = function(c, d, t){
+	var n = this,
+		c = isNaN(c = Math.abs(c)) ? 2 : c,
+		d = d == undefined ? "." : d,
+		t = t == undefined ? "," : t,
+		s = n < 0 ? "-" : "",
+		i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
+		j = (j = i.length) > 3 ? j % 3 : 0;
+	return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? "" : "");
+};

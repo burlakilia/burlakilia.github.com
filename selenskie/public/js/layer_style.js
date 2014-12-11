@@ -113,15 +113,15 @@ var layersStyle = {
             'default': {
                 "strokeOpacity": "1",
                 "strokeWidth": "1",
-                "strokeColor": "orange",
-                "fillColor": "orange", 
+                "strokeColor": "rgb(35, 97, 161)",
+                "fillColor": "rgb(35, 97, 161)",
                 "fillOpacity": "0",
                 "pointRadius": "3", 
                 "cursor": "default"
             },
             'select': {
-                "strokeColor": "orange", 
-                "fillColor": "orange",
+                "strokeColor": "rgb(35, 97, 161)",
+                "fillColor": "rgb(35, 97, 161)",
                 "fillOpacity": "0.8"
             }
         },
