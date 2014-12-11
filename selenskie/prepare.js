@@ -19,8 +19,16 @@ houses.places.map(function (data) {
 		data.data.type = 3;
 	} else if (data.id <= 270) {
 		data.data.type = 4;
-	} else if (data.id <= 303) {
+	} else if (data.id <= 307) {
 		data.data.type = 3;
+	} else if (data.id <= 314) {
+		data.data.type = 2;
+	} else if (data.id <= 336) {
+		data.data.type = 1;
+	} else if (data.id <= 411) {
+		data.data.type = 2;
+	} else if (data.id <= 424) {
+		data.data.type = 1;
 	}
 
 	return data;
