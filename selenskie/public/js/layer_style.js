@@ -111,8 +111,8 @@ var layersStyle = {
     "work": {
         "checked":{
             'default': {
-                "strokeOpacity": "1",
-                "strokeWidth": "1",
+                "strokeOpacity": "0",
+                "strokeWidth": "0",
                 "strokeColor": "rgb(35, 97, 161)",
                 "fillColor": "rgb(35, 97, 161)",
                 "fillOpacity": "0",
@@ -132,13 +132,13 @@ var layersStyle = {
                 "strokeColor": "white",
                 "fillColor": "white", 
                 "fillOpacity": "0",
-                "pointRadius": "3", 
+                "pointRadius": "0",
                 "cursor": "default"
             },
             'select': {
                 "strokeColor": "red", 
                 "fillColor": "red",
-                "fillOpacity": "0.5"
+                "fillOpacity": "0"
             }
         }
     }
