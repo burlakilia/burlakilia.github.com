@@ -140,3 +140,7 @@ body {
     left: 20px;
     bottom: 10px;
 }
+
+#OpenLayers_Control_MaximizeDiv_innerImage {
+    display: none;
+}

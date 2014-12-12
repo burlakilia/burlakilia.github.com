@@ -54,9 +54,7 @@
 						zoomBoxEnabled: false,
 						zoomWheelEnabled: true
 					}),
-					new OpenLayers.Control.PanZoomBar(),
-					new OpenLayers.Control.MousePosition(),
-					new OpenLayers.Control.LayerSwitcher({'ascending':false})
+					new OpenLayers.Control.PanZoomBar()
 				],
 				eventListeners: {
 					"move": function( event ){
