@@ -60,10 +60,9 @@ function show(data) {
 	$("#info .sq_price").html((prices[data.type || 3] * 1000).formatMoney(2, '.', ' ') + " руб.");
 
 	switch(data["status"]) {
-		case 'new': $("#info .status").html("свободно"); break;
-		case 'wait': $("#info .status").html("забронировано"); break;
-		case 'sold': $("#info .status").html("уже проданно"); break;
-		case 'work': $("#info .holderDesc").html("Зона отдыха"); break;
+		case 'new': $("#info .status").html("Свободен"); break;
+		case 'wait': $("#info .status").html("Забронирован"); break;
+		case 'sold': $("#info .status").html("Продан"); break;
 	}
 
 	$("#info .holderText").css("display","none");
@@ -88,7 +87,7 @@ function show(data) {
 	if (data["status"] == 'work') {
 		$("#info .holderStatus").css("display","none");
 		$("#info .holderSq").css("display","none");
-		$("#info .holderDesc").css("display","block");
+		$("#info .holderDesc").css("display","none");
 
 		$("#info .holderPrice").css("display","none");
 		$("#info .holderText").css("display","block");

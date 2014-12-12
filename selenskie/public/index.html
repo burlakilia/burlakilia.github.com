@@ -30,7 +30,7 @@ header('Content-type: text/html; charset=utf-8');
                 imgUrl: "img/plan_2.jpg",
                 imgWidth: 1600,
                 imgHeight: 800,
-                isAdmin: false,
+                isAdmin: true,
                 jsonUrl: 'data/houses_new.json',
                 userSettings: userStatus,
                 onSelect: show,
@@ -73,7 +73,7 @@ header('Content-type: text/html; charset=utf-8');
                 });
 
             }
-/*
+
             $(document).dblclick(function () {
                 var coords = imageMap.getPolygon(imageMap.newPlacesLayer.features.length);
 
@@ -85,7 +85,7 @@ header('Content-type: text/html; charset=utf-8');
                 $form.find('[name="polygon"]').val(JSON.stringify(coords));
                 $form.find('[name="id"]').val(imageMap.newPlacesLayer.features.length);
                 $form.find('[name="number"]').focus();
-            });*/
+            });
 
 
             $(window).resize(function() {
@@ -122,12 +122,12 @@ header('Content-type: text/html; charset=utf-8');
         </form>
         <div id="preloader"><div id="preloaderProgress">Загрузка...</div></div>
         <div id="map" style="position:absolute; width:100%; height: 1000px; border: none;"></div>
-        <div id="info" style="display: none; opacity: 0.9; font-size: 0.9em;">
+        <div id="info" style="display: none; opacity: 0.95; font-size: 0.9em;">
             <div class="images"></div>
             <div class="header"></div>
             <div class="content" style="vertical-align: top;">
                 <div class='holderNumber' style="font-weight: bold; padding-left: 65px; font-size: 24px; padding-top: 2px;">№<span class='number'></span></div>
-                <div class='holderText' style="font-weight: bold;"></div>
+                <div class='holderText'></div>
                 <div class='holderDesc'></div>
                 <div class='holderStatus'>Статус:&nbsp;<span class="status"></span></div>
                 <div class='holderSq'>Площадь:&nbsp;<span class="sq"></span></div>

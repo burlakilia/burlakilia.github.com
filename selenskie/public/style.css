@@ -103,7 +103,7 @@ body {
 }
 
 #info.work .content {
-    padding-left: 150px;
+    padding-left: 125px;
     padding-top: 40px;
 }
 
@@ -142,5 +142,5 @@ body {
 }
 
 #OpenLayers_Control_MaximizeDiv_innerImage {
-    display: none;
+    display: block;
 }
