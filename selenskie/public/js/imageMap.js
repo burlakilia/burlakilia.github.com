@@ -246,21 +246,22 @@
 
 			$.getJSON(settings.jsonUrl, function(places) {
                 var newLayer = new OpenLayers.Layer.Vector("Свободные", {
-                    "styleMap": new OpenLayers.StyleMap(layersStyle['new']['checked'])
+                    "styleMap": new OpenLayers.StyleMap(layersStyle['new']['unchecked'])
                 });
                 var soldLayer = new OpenLayers.Layer.Vector("Проданные", {
-                    "styleMap": new OpenLayers.StyleMap(layersStyle['sold']['checked'])
+                    "styleMap": new OpenLayers.StyleMap(layersStyle['sold']['unchecked'])
                 });
                 var waitLayer = new OpenLayers.Layer.Vector("Зарезервированые", {
-                    "styleMap":new OpenLayers.StyleMap(layersStyle['wait']['checked'])
+                    "styleMap":new OpenLayers.StyleMap(layersStyle['wait']['unchecked'])
                 });
                 var workLayer = new OpenLayers.Layer.Vector("Инфоструктура", {
-                    "styleMap":new OpenLayers.StyleMap(layersStyle['work']['checked'])
+                    "styleMap":new OpenLayers.StyleMap(layersStyle['work']['unchecked'])
                 });
                 
 				self.workLayer = workLayer;
                 self.newLayer = newLayer;
 				self.soldLayer = soldLayer;
+                self.waitLayer = waitLayer;
 				self.map.addLayers([newLayer, soldLayer, waitLayer, workLayer]);
 
                 $.each(places.places, function(key, object){   
@@ -321,8 +322,40 @@
             });	
 
             return this;
+        },
+
+
+        showLayer: function ( element ) {
+
+            if (element.id == "new"){
+                this.newLayer.setVisibility ( false );
+                if (element.checked)
+                    this.newLayer.styleMap =  new OpenLayers.StyleMap(layersStyle['new']['checked']);
+                else
+                    this.newLayer.styleMap = new OpenLayers.StyleMap(layersStyle['new']['unchecked']);
+                this.newLayer.setVisibility ( true );
+            }
+            if (element.id == "sold"){
+
+                this.soldLayer.setVisibility ( false );
+                if (element.checked)
+                    this.soldLayer.styleMap = new OpenLayers.StyleMap(layersStyle['sold']['checked']);
+                else
+                    this.soldLayer.styleMap = new OpenLayers.StyleMap(layersStyle['sold']['unchecked']);
+                this.soldLayer.setVisibility ( true );
+            }
+            if (element.id == "wait"){
+                this.waitLayer.setVisibility ( false );
+                if (element.checked)
+                    this.waitLayer.styleMap = new OpenLayers.StyleMap(layersStyle['wait']['checked']);
+                else
+                    this.waitLayer.styleMap = new OpenLayers.StyleMap(layersStyle['wait']['unchecked']);
+                this.waitLayer.setVisibility ( true );
+            }
         }
     };
+
+
 
     $.fn.imageMap = function( options ) {
         return methods.init(this[0].id, options );

@@ -73,7 +73,7 @@ header('Content-type: text/html; charset=utf-8');
                 });
 
             }
-
+/*
             $(document).dblclick(function () {
                 var coords = imageMap.getPolygon(imageMap.newPlacesLayer.features.length);
 
@@ -85,7 +85,7 @@ header('Content-type: text/html; charset=utf-8');
                 $form.find('[name="polygon"]').val(JSON.stringify(coords));
                 $form.find('[name="id"]').val(imageMap.newPlacesLayer.features.length);
                 $form.find('[name="number"]').focus();
-            });
+            });*/
 
 
             $(window).resize(function() {
@@ -136,6 +136,13 @@ header('Content-type: text/html; charset=utf-8');
             </div>
             <div class="footer"></div>
         </div>
+
+        <div id="mapmenu">
+            <input type="checkbox" id="wait" onchange="imageMap.showLayer(this)"><span>Зарезервированые</span><br>
+            <input type="checkbox" id="sold" onchange="imageMap.showLayer(this)"><span>Проданые</span><br>
+            <input type="checkbox" id="new" onchange="imageMap.showLayer(this)"><span>Свободные</span><be/>
+        </div>
+
     </body>
 </html>
 

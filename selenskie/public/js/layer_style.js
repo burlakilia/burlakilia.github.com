@@ -25,15 +25,15 @@ var layersStyle = {
             'default': {
                 "strokeOpacity": "0",
                 "strokeWidth": "0",
-                "strokeColor": "blue",
-                "fillColor": "blue", 
+                "strokeColor": "green",
+                "fillColor": "green",
                 "fillOpacity": "0",
                 "pointRadius": "3", 
                 "cursor": "default"
             },
             'select': {
-                "strokeColor": "blue", 
-                "fillColor": "blue",
+                "strokeColor": "green",
+                "fillColor": "green",
                 "fillOpacity": "0.5"
             }
         }
@@ -46,7 +46,7 @@ var layersStyle = {
                 "strokeWidth": "1",
                 "strokeColor": "yellow",
                 "fillColor": "yellow", 
-                "fillOpacity": "0.7",
+                "fillOpacity": "0.2",
                 "pointRadius": "3", 
                 "cursor": "default"
             },
@@ -81,7 +81,7 @@ var layersStyle = {
                 "strokeWidth": "1",
                 "strokeColor": "red",
                 "fillColor": "red", 
-                "fillOpacity": "0.7",
+                "fillOpacity": "0.2",
                 "pointRadius": "3", 
                 "cursor": "default"
             },
