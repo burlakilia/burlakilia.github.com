@@ -30,7 +30,7 @@ header('Content-type: text/html; charset=utf-8');
                 imgUrl: "img/plan_2.jpg",
                 imgWidth: 1600,
                 imgHeight: 800,
-                isAdmin: true,
+                isAdmin: false,
                 jsonUrl: 'data/houses_new.json',
                 userSettings: userStatus,
                 onSelect: show,
@@ -99,18 +99,22 @@ header('Content-type: text/html; charset=utf-8');
 
             }
 
-            $(document).dblclick(function () {
-                var coords = imageMap.getPolygon(imageMap.newPlacesLayer.features.length);
+            if (options.isAdmin) {
 
-                if (!options.isAdmin) {
-                    return;
-                }
+                $(document).dblclick(function () {
+                    var coords = imageMap.getPolygon(imageMap.newPlacesLayer.features.length);
 
-                $form.show();
-                $form.find('[name="polygon"]').val(JSON.stringify(coords));
-                $form.find('[name="id"]').val(imageMap.newPlacesLayer.features.length);
-                $form.find('[name="number"]').focus();
-            });
+                    if (!options.isAdmin) {
+                        return;
+                    }
+
+                    $form.show();
+                    $form.find('[name="polygon"]').val(JSON.stringify(coords));
+                    $form.find('[name="id"]').val(imageMap.newPlacesLayer.features.length);
+                    $form.find('[name="number"]').focus();
+                });
+                
+            }
 
 
             $(window).resize(function() {
