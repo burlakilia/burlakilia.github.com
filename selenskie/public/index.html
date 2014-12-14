@@ -38,11 +38,36 @@ header('Content-type: text/html; charset=utf-8');
             };
 
             $(document).ready(function() {
-                // настраиваем высоту окна
+                var nubmers = [], key, w, h, path = 'http://imagemerge-imagemap.rhcloud.com/merge/selenskie/';
+
                 $("#map").css("height", $(window).height() + "px");
                 $form = $(document).find('#admin_poup');
                 imageMap = $("#map").imageMap(options).addFeatures();
                 options.isAdmin && $form.on('submit', onsubmit);
+
+                for (key in userStatus) {
+
+                    if (/.*-.*/.test(key) || userStatus[key].status !== 'sold') {
+                        continue;
+                    }
+
+                    nubmers.push(parseInt(key.replace('N_', '')));
+                }
+
+                w = options.imgWidth;
+                h = options.imgHeight;
+
+                imageMap.map.addLayer(new OpenLayers.Layer.Image(
+                        'дома',
+                        path + nubmers.sort().join('_'),
+                        new OpenLayers.Bounds(-w/2, -h/2, w/2, h/2),
+                        new OpenLayers.Size(w, h),
+                        {
+                            isBaseLayer: false,
+                            numZoomLevels: 2
+                        }
+                ));
+
             });
 
 

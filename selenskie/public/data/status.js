@@ -1,10 +1,15 @@
 var userStatus = {
+
+	"N_5": {
+		"status": "sold"
+	},
+
 	"N_1": {
 		"status": "sold"
 	},
 
 	"N_2": {
-		"status": "wait"
+		"status": "sold"
 	},
 
 	"N_1-1": {
