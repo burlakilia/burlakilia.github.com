@@ -8125,7 +8125,7 @@
    }
   },
   {
-   "id": "1590",
+   "id": "159",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -8171,9 +8171,10 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "1590",
+    "number": "159",
     "price": "",
-    "sq": "1280"
+    "sq": "1280",
+    "type": 3
    }
   },
   {
@@ -9506,7 +9507,7 @@
    }
   },
   {
-   "id": "163",
+   "id": "182",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -9560,14 +9561,14 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "163",
+    "number": "182",
     "price": "",
-    "sq": "1074",
+    "sq": "1058",
     "type": 3
    }
   },
   {
-   "id": "164",
+   "id": "183",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -9613,14 +9614,14 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "164",
+    "number": "183",
     "price": "",
-    "sq": "800",
+    "sq": "850",
     "type": 3
    }
   },
   {
-   "id": "165",
+   "id": "184",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -9670,9 +9671,9 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "165",
+    "number": "184",
     "price": "",
-    "sq": "800",
+    "sq": "850",
     "type": 3
    }
   },
@@ -10431,7 +10432,7 @@
    }
   },
   {
-   "id": "294",
+   "id": "295",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -10477,14 +10478,14 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "294",
+    "number": "295",
     "price": "",
-    "sq": "1059",
+    "sq": "979",
     "type": 3
    }
   },
   {
-   "id": "293",
+   "id": "294",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -10530,9 +10531,9 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "293",
+    "number": "294",
     "price": "",
-    "sq": "967",
+    "sq": "1059",
     "type": 3
    }
   },
@@ -10802,7 +10803,7 @@
    }
   },
   {
-   "id": "272",
+   "id": "274",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -10848,7 +10849,7 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "272",
+    "number": "274",
     "price": "",
     "sq": "838",
     "type": 3
@@ -12290,7 +12291,7 @@
    }
   },
   {
-   "id": "266",
+   "id": "268",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -12336,7 +12337,7 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "266",
+    "number": "268",
     "price": "",
     "sq": "1012",
     "type": 4
@@ -15803,7 +15804,7 @@
    }
   },
   {
-   "id": "267",
+   "id": "287",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -15849,14 +15850,14 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "267",
+    "number": "287",
     "price": "",
     "sq": "1353",
-    "type": 4
+    "type": 3
    }
   },
   {
-   "id": "268",
+   "id": "288",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -15902,10 +15903,10 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "268",
+    "number": "288",
     "price": "",
     "sq": "941",
-    "type": 4
+    "type": 3
    }
   },
   {
