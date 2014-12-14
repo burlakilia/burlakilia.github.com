@@ -25047,6 +25047,110 @@
         "price": "",
         "sq": ""
       }
+    },
+    {
+      "id": "1",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -12.25,
+                        30.5
+                      ],
+                      [
+                        -265.75,
+                        52.5
+                      ],
+                      [
+                        -267.25,
+                        50
+                      ],
+                      [
+                        -11.25,
+                        26.5
+                      ],
+                      [
+                        -12.25,
+                        30.5
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "work",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "1-6",
+        "price": "",
+        "sq": ""
+      }
+    },
+    {
+      "id": "2",
+      "geometry": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "geometry": {
+              "type": "GeometryCollection",
+              "geometries": [
+                {
+                  "type": "Polygon",
+                  "coordinates": [
+                    [
+                      [
+                        -271.25,
+                        53
+                      ],
+                      [
+                        -271.25,
+                        51
+                      ],
+                      [
+                        -440.25,
+                        32
+                      ],
+                      [
+                        -439.75,
+                        35.5
+                      ],
+                      [
+                        -271.25,
+                        53
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            },
+            "type": "Feature",
+            "properties": []
+          }
+        ]
+      },
+      "data": {
+        "text": "",
+        "status": "work",
+        "images": "[\"\",\"\",\"\"]",
+        "number": "1-6",
+        "price": "",
+        "sq": ""
+      }
     }
   ]
 }
