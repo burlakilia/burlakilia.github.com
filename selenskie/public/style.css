@@ -144,3 +144,8 @@ body {
 #OpenLayers_Control_MaximizeDiv_innerImage {
     display: block;
 }
+
+.return {   position: absolute;
+    height: 25px;
+    right: 10px; bottom:10px; z-index: 1001;
+    background-image: url('img/back.png');}
