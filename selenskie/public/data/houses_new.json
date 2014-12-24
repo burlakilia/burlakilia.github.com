@@ -16550,7 +16550,7 @@
    }
   },
   {
-   "id": "248",
+   "id": "238",
    "geometry": {
     "type": "FeatureCollection",
     "features": [
@@ -16596,9 +16596,9 @@
     "text": "",
     "status": "new",
     "images": "[\"\",\"\",\"\"]",
-    "number": "248",
+    "number": "238",
     "price": "",
-    "sq": "851",
+    "sq": "921",
     "type": 4
    }
   },
