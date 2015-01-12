@@ -112,7 +112,6 @@ body {
     position: absolute;
     top: -187px;
     left: 12px;
-
 }
 
 #info .images {
@@ -120,7 +119,8 @@ body {
 }
 
 #info .images img {
-    width: 343px;
+    height: 180px;
+    width: 100%;
     margin: 0px;
     margin-bottom: -3px;
 }
