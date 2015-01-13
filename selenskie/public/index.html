@@ -75,13 +75,29 @@ header('Content-type: text/html; charset=utf-8');
             });
 
             $(document).mousemove(function(e){
+
                 if (!formSelect) {
                     mouse.x = e.pageX;
                     mouse.y = e.pageY;
 
+                    $('#info').toggleClass('offset-top', false);
+                    $('#info').toggleClass('offset-right', false);
+
+
+                    if (mouse.y - 146 < 0) {
+                        $('#info').toggleClass('offset-top', true);
+                    }
+
+                    if (mouse.x + 250 > $(window).width()) {
+                        $('#info').toggleClass('offset-right', true);
+                    }
+
                     $("#info").css("left",mouse.x - 56  + "px");
                     $("#info").css("top",mouse.y - 135 + "px");
+
                 }
+
+
             });
 
 

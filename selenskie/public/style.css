@@ -155,3 +155,15 @@ body {
     color: white;
     text-decoration: none;
 }
+
+#info.offset-right.offset-right {
+    margin-left: -260px;
+}
+
+#info.offset-top.offset-top {
+    margin-top: 150px;
+}
+
+#info.offset-top .images {
+    margin-top: 298px;
+}
